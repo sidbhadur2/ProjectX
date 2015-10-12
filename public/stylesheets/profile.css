@@ -1,0 +1,20 @@
+html, body {
+	height: 100%;
+}
+
+.content {
+	height: 100%;
+	padding: 0 5%;
+	padding-top: 5em;
+}
+
+.user-info {
+	float: right;
+	width: 30%;
+	min-height: 50%;
+}
+
+.playlists {
+	width: 65%;
+	float: left;
+}
