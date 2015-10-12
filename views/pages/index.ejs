@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+	<% include ../partials/header.ejs %>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
 </head>
 <body>
 <% include ../partials/nav.ejs %>
 <div class="content">
-  <div>
-    <div class='well clearfix'>
-      <form class="form-horizontal">
-        <fieldset>
-          <legend>Sign Up</legend>
-        </fieldset>
-
-        <div class="form-group">
-            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-            <div class="col-lg-10">
-              <input type="text" class="form-control" id="inputEmail" placeholder="Email" style="cursor: auto;" autocomplete="off">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-            <div class="col-lg-10">
-              <input type="password" class="form-control" id="inputPassword" placeholder="Password" style="cursor: auto;" autocomplete="off">
-            </div>
-          </div>
-      </form>
-      <div class="form-group">
-            <button type="submit" class="btn btn-info pull-right">Submit</button>
-        </div>
-    </div>
-  </div>
+	<div>
+		<div class='well clearfix'>
+			<form id='playlist-form' action='generate' method='get' class="form-horizontal">
+				<div class="form-group"></div>
+				<div class="form-group" style="text-align:center">
+					<span class='playlist-text'>Find me </span>
+					<input type='number' min='1' max='25' id="input-song-count" placeholder="5" style="cursor: auto;" autocomplete="off"> 
+					<span class='playlist-text'> songs that are </span>
+					<select class="form-control" id="input-song-mood">
+						<option>happy</option>
+						<option>sad</option>
+						<option>inspirational</option>
+						<option>romantic</option>
+						<option>good for parties</option>
+						<option>chill</option>
+						<option>focused</option>
+						<option>good for workouts</option>
+						<option>good for travel</option>
+						<option>intense</option>
+					</select>
+				</div>
+				<div class="form-group"></div>
+				<div class="form-group">
+						<button id='make-playlist' type="submit" class="btn btn-info pull-right">Go!</button>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>
 
 </body>

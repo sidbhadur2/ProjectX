@@ -12,3 +12,36 @@ html, body {
 	display: table-cell;
 	vertical-align: middle;
 }
+
+#playlist-form {
+	width: 35em;
+}
+
+#input-song-count {
+	margin: 0 0.5em;
+	width: 3em;
+	height: 2em;
+	background-color: #4E5D6C;
+	border: 2px solid rgba(0, 0, 0, 0.08);
+	padding-left: 8px;
+	border-radius: 10px;
+	color: white;
+}
+
+#input-song-mood {
+	margin-left: 0.5em;
+	width: 11em;
+	display: inline;
+	height: 2em;
+	background-color: #4E5D6C;
+	color: white;
+}
+
+.playlist-text {
+}
+
+#make-playlist {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
