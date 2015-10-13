@@ -34,6 +34,7 @@ html, body {
 	display: inline;
 	height: 2em;
 	background-color: #4E5D6C;
+	border: 2px solid rgba(0, 0, 0, 0.08);
 	color: white;
 }
 
@@ -44,4 +45,17 @@ html, body {
 	margin-left: 25%;
 	margin-right: 25%;
 	width: 50%;
+}
+
+.generated-playlist {
+	width: 30em;
+}
+
+.generated-playlist h3 {
+	margin-bottom: 1em;
+}
+
+.generated-playlist button {
+	margin-left: 3%;
+	width: 45%;
 }
