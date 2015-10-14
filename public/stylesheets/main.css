@@ -59,3 +59,11 @@ html, body {
 	margin-left: 3%;
 	width: 45%;
 }
+
+.panel-heading {
+	cursor: pointer;
+}
+
+.panel-heading:hover {
+	text-shadow: 0 0 1px #FFFFFF;
+}

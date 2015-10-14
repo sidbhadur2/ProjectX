@@ -18,3 +18,11 @@ html, body {
 	width: 65%;
 	float: left;
 }
+
+#playlists .panel-heading {
+	cursor: pointer;
+}
+
+#playlists .panel-heading:hover {
+	text-shadow: 0 0 1px #FFFFFF;
+}

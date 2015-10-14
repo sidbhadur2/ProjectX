@@ -4,8 +4,6 @@ import PlaylistView from './playlist.js';
 
 // Pass in a Playlists collection to create
 var PlaylistsView = Backbone.View.extend({
-	className: 'playlists',
-
 	initialize: function() {
 		this.subviews = [];
 
@@ -26,10 +24,11 @@ var PlaylistsView = Backbone.View.extend({
 	// I'm assuming this thing is only gonna render once otherwise
 	// this is gonna get wayyy more complicated (or memory leaky)
 	render: function() {
-		$('#playlists').prepend(this.subviews.map( (subview) => {
+		var $container = $('#playlists');
+		_.each(this.subviews, (subview) => {
 			subview.render();
-			return subview.$el.html();
-		}).join(''));
+			$container.append(subview.$el);
+		});
 	}
 });
 
