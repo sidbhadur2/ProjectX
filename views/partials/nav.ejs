@@ -11,8 +11,8 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="/">Search</span></a></li>
-        <li class="active"><a href="/profile">Profile <span class="sr-only">(current)</a></li>
+        <li <%if (index){%>class="active"<%}%>><a href="/">Search</a></li>
+        <li <%if (profile){%>class="active"<%}%>><a href="/profile">Profile</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

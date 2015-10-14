@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import Playlist from '../../models/backbone/playlist.js'
 import GeneratedPlaylistView from './generated_playlist.js';
 
 $(document).ready(() => {
@@ -12,11 +13,11 @@ $(document).ready(() => {
 				request[input.name] = input.value;
 			});
 			
-			$.get('/generate', request).done((playlist) => {
-				var playlistView = new GeneratedPlaylistView({model: playlist});
-				playlistView.render();
-				
+			$.get('/generate', request).done((playlistData) => {
+				var playlist = new Playlist(playlistData),
+					playlistView = new GeneratedPlaylistView({model: playlist});
 
+				playlistView.render();
 				$('.content').html(playlistView.$el);
 			});
 		});

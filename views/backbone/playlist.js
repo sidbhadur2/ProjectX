@@ -1,18 +1,17 @@
 import Backbone from 'backbone';
 import _ from 'lodash';
 
+// Pass in a Playlist model to create
 var PlaylistView = Backbone.View.extend({
-	events: {
-		'click': 'collapse'
-	},
+
+	songTemplate: _.template('<tr><td><%= index + 1 %></td><td><%= song.name %></td><td><%= song.artist %></td></tr>'),
 
 	collapse: function() {
-		console.log('yes');
 		this.$('.panel-collapse').collapse('toggle');
 	},
 
 	getTableBody: function() {
-		return _.map(this.model.songs, (song, index) => {
+		return _.map(this.model.get('songs'), (song, index) => {
 			return `
 				<tr>
 					<td>${index + 1}</td>
@@ -25,7 +24,7 @@ var PlaylistView = Backbone.View.extend({
 	render: function() {
 		this.$el.html(`
 			<div class="panel panel-default">
-				<div class="panel-heading">${this.model.name}</div>
+				<div class="panel-heading">${this.model.get('name')}</div>
 				<div class="panel-collapse collapse in">
 					<div class="panel-body">
 						<table class="table table-hover ">

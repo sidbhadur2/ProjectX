@@ -10,11 +10,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-	response.render('pages/index');
+	response.render('pages/index', {index: true, profile: false});
 });
 
 app.get('/profile', function(request, response) {
-	response.render('pages/profile');
+	response.render('pages/profile', {index: false, profile: true});
 });
 
 app.get('/generate', function(request, response) {
@@ -37,6 +37,48 @@ app.get('/generate', function(request, response) {
 			}
 		]
 	});
+});
+
+app.get('/playlists', function(request, response) {
+	// I stuck some dummy data in here, but this is the general format of
+	// what this route should return.
+	// Obviously this will be user-specific eventually
+	response.send([
+		{
+			name: 'Test Playlist 1',
+			songs: [
+				{
+					name: 'Hotline Bling',
+					artist: 'Drake'
+				},
+				{
+					name: 'Monster',
+					artist: 'Kanye West'
+				},
+				{
+					name: 'Poetic Justice',
+					artist: 'Kendrick Lamar'
+				}
+			]
+		},
+		{
+			name: 'Test Playlist 2',
+			songs: [
+				{
+					name: 'Take On Me',
+					artist: 'a-ha'
+				},
+				{
+					name: 'Forever Young',
+					artist: 'Alphaville'
+				},
+				{
+					name: 'Billie Jean',
+					artist: 'Michael Jackson'
+				}
+			]
+		}
+	]);
 });
 
 app.listen(app.get('port'), function() {

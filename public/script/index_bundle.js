@@ -52,6 +52,10 @@
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
+	var _modelsBackbonePlaylistJs = __webpack_require__(8);
+
+	var _modelsBackbonePlaylistJs2 = _interopRequireDefault(_modelsBackbonePlaylistJs);
+
 	var _generated_playlistJs = __webpack_require__(7);
 
 	var _generated_playlistJs2 = _interopRequireDefault(_generated_playlistJs);
@@ -66,10 +70,11 @@
 					request[input.name] = input.value;
 				});
 
-				$.get('/generate', request).done(function (playlist) {
-					var playlistView = new _generated_playlistJs2['default']({ model: playlist });
-					playlistView.render();
+				$.get('/generate', request).done(function (playlistData) {
+					var playlist = new _modelsBackbonePlaylistJs2['default'](playlistData),
+					    playlistView = new _generated_playlistJs2['default']({ model: playlist });
 
+					playlistView.render();
 					$('.content').html(playlistView.$el);
 				});
 			});
@@ -12470,24 +12475,23 @@
 
 	var _lodash2 = _interopRequireDefault(_lodash);
 
+	// Pass in a Playlist model to create
 	var PlaylistView = _backbone2['default'].View.extend({
-		events: {
-			'click': 'collapse'
-		},
+
+		songTemplate: _lodash2['default'].template('<tr><td><%= index + 1 %></td><td><%= song.name %></td><td><%= song.artist %></td></tr>'),
 
 		collapse: function collapse() {
-			console.log('yes');
 			this.$('.panel-collapse').collapse('toggle');
 		},
 
 		getTableBody: function getTableBody() {
-			return _lodash2['default'].map(this.model.songs, function (song, index) {
+			return _lodash2['default'].map(this.model.get('songs'), function (song, index) {
 				return '\n\t\t\t\t<tr>\n\t\t\t\t\t<td>' + (index + 1) + '</td>\n\t\t\t\t\t<td>' + song.name + '</td>\n\t\t\t\t\t<td>' + song.artist + '</td>\n\t\t\t\t</tr>';
 			}).join('');
 		},
 
 		render: function render() {
-			this.$el.html(('\n\t\t\t<div class="panel panel-default">\n\t\t\t\t<div class="panel-heading">' + this.model.name + '</div>\n\t\t\t\t<div class="panel-collapse collapse in">\n\t\t\t\t\t<div class="panel-body">\n\t\t\t\t\t\t<table class="table table-hover ">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t    <th>#</th>\n\t\t\t\t\t\t\t    <th>Song</th>\n\t\t\t\t\t\t\t    <th>Artist</th>\n\t\t\t\t\t\t    \t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t' + this.getTableBody() + '\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t').trim());
+			this.$el.html(('\n\t\t\t<div class="panel panel-default">\n\t\t\t\t<div class="panel-heading">' + this.model.get('name') + '</div>\n\t\t\t\t<div class="panel-collapse collapse in">\n\t\t\t\t\t<div class="panel-body">\n\t\t\t\t\t\t<table class="table table-hover ">\n\t\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t    <th>#</th>\n\t\t\t\t\t\t\t    <th>Song</th>\n\t\t\t\t\t\t\t    <th>Artist</th>\n\t\t\t\t\t\t    \t</tr>\n\t\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t' + this.getTableBody() + '\n\t\t\t\t\t\t\t</tbody>\n\t\t\t\t\t\t</table> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t').trim());
 		}
 	});
 
@@ -25201,6 +25205,32 @@
 	});
 
 	exports['default'] = GeneratedPlaylistView;
+	module.exports = exports['default'];
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+		value: true
+	});
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var _backbone = __webpack_require__(4);
+
+	var _backbone2 = _interopRequireDefault(_backbone);
+
+	var Playlist = _backbone2['default'].Model.extend({
+		defaults: {
+			name: '',
+			songs: []
+		}
+	});
+
+	exports['default'] = Playlist;
 	module.exports = exports['default'];
 
 /***/ }
