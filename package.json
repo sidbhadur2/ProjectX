@@ -7,6 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+<<<<<<< Updated upstream
     "pg": "4.x",
     "ejs": "2.3.3",
     "express": "4.13.3",
@@ -15,6 +16,11 @@
     "lodash": "3.10.1",
     "handlebars": "4.0.3",
     "handlebars-loader": "1.1.4"
+=======
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "pg": "4.4.2"
+>>>>>>> Stashed changes
   },
   "engines": {
     "node": "0.12.7"
