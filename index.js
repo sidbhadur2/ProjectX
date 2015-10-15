@@ -1,22 +1,6 @@
 var express = require('express');
 var app = express();
-var pg = require('pg');
-
-app.get('/db', function (request, response) {
-  pg.connect(process.env.DATABASE_URL, function(err, client, done) {
-    client.query('SELECT * FROM test_table', function(err, result) {
-      done();
-        if(err) {
-          console.error(err);
-          response.send("Error " + err );
-        }
-         else {
-          response.render('pages/db', { results: result.rows});
-        }
-    });
-  });
-});
-
+var db = require('./controllers');
 app.set('port', (process.env.PORT || 5000));
 
 // make express look in the public directory for assets (css/js/img)
@@ -29,6 +13,14 @@ app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
 	response.render('pages/index', {index: true, profile: false});
 });
+app.get('/db/addRecord', function(req,res){
+    db.addRecord(req,res);
+});
+
+app.get('/db/createTable', function(req,res){
+    db.createTable(req,res);
+});
+
 
 app.get('/profile', function(request, response) {
 	response.render('pages/profile', {index: false, profile: true});
