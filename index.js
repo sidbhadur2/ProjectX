@@ -20,7 +20,9 @@ app.get('/db/addRecord', function(req,res){
 app.get('/db/createTable', function(req,res){
     db.createTable(req,res);
 });
-
+app.get('/db/dropTable', function(req,res){
+    db.dropTable(req,res);
+});
 
 app.get('/profile', function(request, response) {
 	response.render('pages/profile', {index: false, profile: true});

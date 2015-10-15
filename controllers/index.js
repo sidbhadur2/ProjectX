@@ -29,3 +29,13 @@ exports.addRecord=function(req, res){
         });
 
    };
+exports.dropTable=function(req,res){
+	var client = new pg.Client(conString);
+	client.connect();
+	var query = client.query("DROP TABLE songs");
+	query.on("end", function (result) {
+		client.end();
+		res.write('Success');
+		res.end();
+        });
+};
