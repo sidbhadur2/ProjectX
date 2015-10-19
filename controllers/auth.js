@@ -41,7 +41,7 @@ exports.postLogin = function(req, res, next) {
  * GET /logout
  * Log out.
  */
-exports.logout = function(request, response) {
+exports.logout = function(req, res) {
   req.logout();
   res.redirect('/');
 };
@@ -62,24 +62,41 @@ exports.getSignup = function(request, response) {
  */
 exports.postSignup = function(req, res, next) {
 
-console.log('here1');
-
 User.findOne({where: {username:req.body.username}})
-  .then(function(existingUser){
-      if(existingUser) {
+  .then(function(user){
+      if(user) {
           req.flash('errors', { msg: 'Account with that email address already exists.' });
           console.log("nope");
           return res.redirect('/signup');
         }
+      else{
+          var t_user = User.create({
+            username: req.body.username,
+            password: req.body.password,
+        }).then(function(){
+            req.logIn(t_user,function(err){
+            if (err) return next(err);
+            res.redirect('/');
+            });
+          });
+      }
   });
-
-var user = User.create({
-    username: req.body.username,
-    password: req.body.password,
-});
-
 };
 
 
 /*** GET PROFILE ***/
-
+exports.getUser = function(req, res) {
+  User
+    .findOne({where: { username: req.params.username }})
+    .then(function(user) {
+      // Check to see if a user with the specified username exists
+      if (!user) {
+        req.flash('errors', { msg: 'User with that username does not exist.' });
+        return res.redirect('/');
+      }
+      // If the user does exist, find all products where the current user is the lender
+      else{
+          res.render('pages/profile', { username: user.username, index: false, profile: true});
+        }
+    });
+};

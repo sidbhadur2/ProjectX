@@ -13,7 +13,7 @@ var pg = require('pg');
 var secrets = require('./secrets');
 var passportConf = require('./config/passport');
 var auth = require('./controllers/auth');
-
+var pgSession = require('connect-pg-simple')(session);
 app.set('port', (process.env.PORT || 5000));
 
 // make express look in the public directory for assets (css/js/img)
@@ -27,6 +27,11 @@ app.use(cookieParser());
 app.use(session({
   resave: true,
   saveUninitialized: true,
+  store: new pgSession({
+	pg : pg,                                  // Use global pg-module 
+    conString : secrets.db,
+    tableName : 'session'
+  }),
   secret: secrets.sessionSecret,
 }));
 app.use(passport.initialize());
@@ -48,7 +53,7 @@ app.get('/login',auth.getLogin);
 app.post('/login', auth.postLogin);
 app.get('/signup', auth.getSignup);
 app.post('/signup', auth.postSignup);
-
+app.get('/logout', auth.logout);
 app.get('/db/addRecord', function(req,res){
     db.addRecord(req,res);
 });
@@ -60,10 +65,7 @@ app.get('/db/dropTable', function(req,res){
     db.dropTable(req,res);
 });
 
-app.get('/profile', function(request, response) {
-	response.render('pages/profile', {index: false, profile: true});
-});
-
+app.get('/profile/:username', auth.getUser);
 app.get('/generate', function(request, response) {
 	// I stuck some dummy data in here, but this is the general format of
 	// what this route should return.

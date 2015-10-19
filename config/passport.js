@@ -5,11 +5,11 @@ var secrets = require('../secrets');
 var User = require('../schema/user.js');
 
 passport.serializeUser(function(user, done) {
-  done(null, user.username);
+  done(null, user);
 });
 
 passport.deserializeUser(function(user, done) {
-  User.findOne(user.username).then(function(){
+  User.findById(user.id).then(function(){
     done(null, user);
   });
   });
