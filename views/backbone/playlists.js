@@ -16,12 +16,8 @@ var PlaylistsView = Backbone.View.extend({
 	},
 
 	createSubviews: function() {
-		this.subviews = [];
 		_.each(this.collection.models, (playlist) => {
-			this.subviews.push(new PlaylistView({
-				model: playlist, 
-				editable: true
-			}));
+			this.subviews.push(new PlaylistView({model: playlist}));
 		});
 	},
 

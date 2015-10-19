@@ -6,38 +6,20 @@ import Handlebars from 'handlebars/runtime';
 // Pass in a Playlist model to create
 var PlaylistView = Backbone.View.extend({
 	events: {
-		'click .panel-heading': 'collapse',
-		'click .delete': 'deletePlaylist'
-	},
-
-	initialize: function(options) {
-		// When true, shows delete button
-		this.editable = options.editable;
+		'click .panel-heading': 'collapse'
 	},
 
 	collapse: function() {
 		$(this.el).find('.panel-collapse').collapse('toggle');
 	},
 
-	deletePlaylist: function(ev) {
-		ev.preventDefault();
-		ev.stopPropagation();
-
-		this.model.deletePlaylist();
-	},
-
 	render: function() {
-		var tplData = this.model.toJSON();
-		tplData.editable = this.editable;
-
 		Handlebars.registerHelper("inc", function(value, options)
 		{
 		    return parseInt(value) + 1;
 		});
-
-
 		this.$el.empty();
-		this.$el.append(template(tplData));
+		this.$el.append(template(this.model.toJSON()));
 	}
 });
 
