@@ -81,6 +81,10 @@ app.get('/playlists', function(request, response) {
 	]);
 });
 
+app.post('/delete', function(request, response) {
+	response.send('TODO');
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
