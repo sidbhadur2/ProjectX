@@ -94,7 +94,6 @@ exports.getUser = function(req, res) {
         req.flash('errors', { msg: 'User with that username does not exist.' });
         return res.redirect('/');
       }
-      // If the user does exist, find all products where the current user is the lender
       else{
           res.render('pages/profile', { username: user.username, index: false, profile: true});
         }
