@@ -1,11 +1,41 @@
 var express = require('express');
 var app = express();
-var db = require('./controllers');
+var db = require('./controllers/playlists.js');
+var flash = require("flash");
+var passport = require("passport");
+var LocalStrategy = require('passport-local').Strategy;
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+var errorHandler = require('errorhandler');
+var session = require('express-session');
+var app = express();
+var pg = require('pg');
+var secrets = require('./secrets');
+var passportConf = require('./config/passport');
+var auth = require('./controllers/auth');
+
 app.set('port', (process.env.PORT || 5000));
 
 // make express look in the public directory for assets (css/js/img)
+
 app.use(express.static(__dirname + '/public'));
 
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(session({
+  resave: true,
+  saveUninitialized: true,
+  secret: secrets.sessionSecret,
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
+app.use(function(request, response, next) {
+  response.locals.user = request.user;
+  next();
+});
 // might have to change these setting to match backbone
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -13,6 +43,12 @@ app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
 	response.render('pages/index', {index: true, profile: false});
 });
+/*** LOGIN STUFF ***/
+app.get('/login',auth.getLogin);
+app.post('/login', auth.postLogin);
+app.get('/signup', auth.getSignup);
+app.post('/signup', auth.postSignup);
+
 app.get('/db/addRecord', function(req,res){
     db.addRecord(req,res);
 });
@@ -93,6 +129,7 @@ app.get('/playlists', function(request, response) {
 	//change this to set homepage
   response.render('pages/index');
 });
+
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
