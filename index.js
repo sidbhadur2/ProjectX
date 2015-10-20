@@ -128,8 +128,6 @@ app.get('/playlists', function(request, response) {
 			]
 		}
 	]);
-	//change this to set homepage
-  response.render('pages/index');
 });
 
 
