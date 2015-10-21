@@ -7,7 +7,8 @@ import Handlebars from 'handlebars/runtime';
 var PlaylistView = Backbone.View.extend({
 	events: {
 		'click .panel-heading': 'collapse',
-		'click .delete': 'deletePlaylist'
+		'click .delete': 'deletePlaylist',
+		'click .edit': 'editName'
 	},
 
 	initialize: function(options) {
@@ -22,8 +23,16 @@ var PlaylistView = Backbone.View.extend({
 	deletePlaylist: function(ev) {
 		ev.preventDefault();
 		ev.stopPropagation();
-
+		this.$el.fadeOut();
 		this.model.deletePlaylist();
+	},
+
+	editName: function(ev) {
+		ev.preventDefault();
+		ev.stopPropagation();
+
+		var newName = prompt('Enter a new name for this playlist', this.model.get('name'));
+		this.model.editName(newName);
 	},
 
 	render: function() {

@@ -66,73 +66,16 @@ app.get('/db/dropTable', function(req,res){
 });
 
 app.get('/profile/:username', auth.getUser);
-app.get('/generate', function(request, response) {
-	// I stuck some dummy data in here, but this is the general format of
-	// what this route should return.
-	response.send({
-		name: 'Test Playlist',
-		songs: [
-			{
-				name: 'Hotline Bling',
-				artist: 'Drake'
-			},
-			{
-				name: 'Monster',
-				artist: 'Kanye West'
-			},
-			{
-				name: 'Poetic Justice',
-				artist: 'Kendrick Lamar'
-			}
-		]
-	});
-});
+app.get('/generate', db.generate);
 
-app.get('/playlists', function(request, response) {
-	// I stuck some dummy data in here, but this is the general format of
-	// what this route should return.
-	// Obviously this will be user-specific eventually
-	response.send([
-		{
-			name: 'Test Playlist 1',
-			songs: [
-				{
-					name: 'Hotline Bling',
-					artist: 'Drake'
-				},
-				{
-					name: 'Monster',
-					artist: 'Kanye West'
-				},
-				{
-					name: 'Poetic Justice',
-					artist: 'Kendrick Lamar'
-				}
-			]
-		},
-		{
-			name: 'Test Playlist 2',
-			songs: [
-				{
-					name: 'Take On Me',
-					artist: 'a-ha'
-				},
-				{
-					name: 'Forever Young',
-					artist: 'Alphaville'
-				},
-				{
-					name: 'Billie Jean',
-					artist: 'Michael Jackson'
-				}
-			]
-		}
-	]);
-});
+app.get('/playlists', db.fetch);
 
-app.post('/delete', function(request, response) {
-	response.send('TODO');
-});
+app.post('/save', db.save);
+
+app.post('/delete/:playlistname', db.deletePlaylist);
+
+// ?old=< >&new=< >
+app.post('/edit', db.editPlaylistName);
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));

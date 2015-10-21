@@ -12480,7 +12480,24 @@
 		// Delete yourself and, if you're part of a collection, make that
 		// collection refetch
 		deletePlaylist: function deletePlaylist() {
-			$.post('/delete');
+			var self = this;
+			console.log('deleting playlist');
+			$.post('/delete/' + this.attributes.name).done(function () {
+				if (self.collection) {
+					self.collection.fetch({ reset: true });
+				}
+			});
+		},
+
+		// Change your name and, if you're part of a collection, make that
+		// collection refetch
+		editName: function editName(newName) {
+			var self = this;
+			$.post('/edit?old=' + this.attributes.name + '&new=' + newName).done(function () {
+				if (self.collection) {
+					self.collection.fetch({ reset: true });
+				}
+			});
 		}
 	});
 
@@ -25185,7 +25202,9 @@
 		},
 
 		save: function save() {
-			// TODO
+			var name = prompt('Enter a name for your playlist', 'My New Playlist');
+			this.model.set('name', name);
+			$.post('/save', { playlist: this.model.toJSON() });
 		},
 
 		className: 'generated-playlist',
@@ -25239,7 +25258,8 @@
 	var PlaylistView = _backbone2['default'].View.extend({
 		events: {
 			'click .panel-heading': 'collapse',
-			'click .delete': 'deletePlaylist'
+			'click .delete': 'deletePlaylist',
+			'click .edit': 'editName'
 		},
 
 		initialize: function initialize(options) {
@@ -25254,8 +25274,16 @@
 		deletePlaylist: function deletePlaylist(ev) {
 			ev.preventDefault();
 			ev.stopPropagation();
-
+			this.$el.fadeOut();
 			this.model.deletePlaylist();
+		},
+
+		editName: function editName(ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+
+			var newName = prompt('Enter a new name for this playlist', this.model.get('name'));
+			this.model.editName(newName);
 		},
 
 		render: function render() {

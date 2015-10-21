@@ -8,6 +8,7 @@ var PlaylistsView = Backbone.View.extend({
 		this.subviews = [];
 
 		this.collection.on('reset', () => {
+			console.log('reset detected');
 			this.createSubviews();
 			this.render();
 		});
@@ -25,10 +26,10 @@ var PlaylistsView = Backbone.View.extend({
 		});
 	},
 
-	// I'm assuming this thing is only gonna render once otherwise
-	// this is gonna get wayyy more complicated (or memory leaky)
+	// This thing is memory leaky and gross right now but whatever
 	render: function() {
 		var $container = $('#playlists');
+		$container.empty();
 		_.each(this.subviews, (subview) => {
 			subview.render();
 			$container.append(subview.$el);
