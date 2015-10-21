@@ -26,3 +26,6 @@ Burning hard
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.684574647169
+Sad = 0.315425352831

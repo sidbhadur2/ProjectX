@@ -17,3 +17,6 @@ Can't you see that you're smothering me?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.53643872678
+Sad = 0.46356127322

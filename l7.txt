@@ -22,3 +22,6 @@ I be in the kitchen cookin' pies with my baby
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.692593804514
+Sad = 0.307406195486

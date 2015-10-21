@@ -17,3 +17,6 @@ Oh, yeah, your skin and bones
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.587496809626
+Sad = 0.412503190374

@@ -18,3 +18,6 @@ Then you wouldn't have to ask me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.588335354631
+Sad = 0.411664645369

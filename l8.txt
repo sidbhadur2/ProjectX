@@ -27,3 +27,6 @@ Now break your legs
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.607942217692
+Sad = 0.392057782308

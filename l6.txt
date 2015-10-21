@@ -46,3 +46,6 @@ You're mother and me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.592846313678
+Sad = 0.407153686322
