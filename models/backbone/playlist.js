@@ -10,7 +10,6 @@ var Playlist = Backbone.Model.extend({
 	// collection refetch
 	deletePlaylist: function() {
 		var self = this;
-		console.log('deleting playlist');
 		$.post(`/delete/${this.attributes.name}`).done(() => {
 		 	if (self.collection) {
 		 		self.collection.fetch({reset: true});

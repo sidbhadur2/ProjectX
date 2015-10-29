@@ -12481,7 +12481,6 @@
 		// collection refetch
 		deletePlaylist: function deletePlaylist() {
 			var self = this;
-			console.log('deleting playlist');
 			$.post('/delete/' + this.attributes.name).done(function () {
 				if (self.collection) {
 					self.collection.fetch({ reset: true });
@@ -25204,7 +25203,9 @@
 		save: function save() {
 			var name = prompt('Enter a name for your playlist', 'My New Playlist');
 			this.model.set('name', name);
-			$.post('/save', { playlist: this.model.toJSON() });
+			$.post('/save', { playlist: this.model.toJSON() }).then(function () {
+				window.location.href = '/profile';
+			});
 		},
 
 		className: 'generated-playlist',

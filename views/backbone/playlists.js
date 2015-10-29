@@ -8,7 +8,6 @@ var PlaylistsView = Backbone.View.extend({
 		this.subviews = [];
 
 		this.collection.on('reset', () => {
-			console.log('reset detected');
 			this.createSubviews();
 			this.render();
 		});

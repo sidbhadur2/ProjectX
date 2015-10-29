@@ -20,7 +20,6 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -46,7 +45,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-	response.render('pages/index', {index: true, profile: false});
+  if (!request.user) {
+    response.redirect('/login');
+  } else {
+  	response.render('pages/index', {index: true, profile: false});
+  }
 });
 /*** LOGIN STUFF ***/
 app.get('/login',auth.getLogin);
@@ -65,7 +68,9 @@ app.get('/db/dropTable', function(req,res){
     db.dropTable(req,res);
 });
 
+app.get('/profile/', auth.getUser);
 app.get('/profile/:username', auth.getUser);
+
 app.get('/generate', db.generate);
 
 app.get('/playlists', db.fetch);

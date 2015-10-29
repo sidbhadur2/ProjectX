@@ -12463,7 +12463,6 @@
 		// collection refetch
 		deletePlaylist: function deletePlaylist() {
 			var self = this;
-			console.log('deleting playlist');
 			$.post('/delete/' + this.attributes.name).done(function () {
 				if (self.collection) {
 					self.collection.fetch({ reset: true });
@@ -26499,7 +26498,6 @@
 			this.subviews = [];
 
 			this.collection.on('reset', function () {
-				console.log('reset detected');
 				_this.createSubviews();
 				_this.render();
 			});
