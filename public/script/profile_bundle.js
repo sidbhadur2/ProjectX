@@ -12462,7 +12462,23 @@
 		// Delete yourself and, if you're part of a collection, make that
 		// collection refetch
 		deletePlaylist: function deletePlaylist() {
-			$.post('/delete');
+			var self = this;
+			$.post('/delete/' + this.attributes.name).done(function () {
+				if (self.collection) {
+					self.collection.fetch({ reset: true });
+				}
+			});
+		},
+
+		// Change your name and, if you're part of a collection, make that
+		// collection refetch
+		editName: function editName(newName) {
+			var self = this;
+			$.post('/edit?old=' + this.attributes.name + '&new=' + newName).done(function () {
+				if (self.collection) {
+					self.collection.fetch({ reset: true });
+				}
+			});
 		}
 	});
 
@@ -25173,7 +25189,8 @@
 	var PlaylistView = _backbone2['default'].View.extend({
 		events: {
 			'click .panel-heading': 'collapse',
-			'click .delete': 'deletePlaylist'
+			'click .delete': 'deletePlaylist',
+			'click .edit': 'editName'
 		},
 
 		initialize: function initialize(options) {
@@ -25188,8 +25205,16 @@
 		deletePlaylist: function deletePlaylist(ev) {
 			ev.preventDefault();
 			ev.stopPropagation();
-
+			this.$el.fadeOut();
 			this.model.deletePlaylist();
+		},
+
+		editName: function editName(ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+
+			var newName = prompt('Enter a new name for this playlist', this.model.get('name'));
+			this.model.editName(newName);
 		},
 
 		render: function render() {
@@ -26492,10 +26517,10 @@
 			});
 		},
 
-		// I'm assuming this thing is only gonna render once otherwise
-		// this is gonna get wayyy more complicated (or memory leaky)
+		// This thing is memory leaky and gross right now but whatever
 		render: function render() {
 			var $container = $('#playlists');
+			$container.empty();
 			_lodash2['default'].each(this.subviews, function (subview) {
 				subview.render();
 				$container.append(subview.$el);

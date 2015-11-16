@@ -5,13 +5,13 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
 </head>
 <body>
-<% include ../partials/nav.ejs %>
+<!--% include ../partials/nav.ejs-->
 <div class="content">
   <div>
     <div class='well clearfix'>
-      <form class="form-horizontal">
+      <form class="form-horizontal" method="POST">
         <fieldset>
-          <legend>Sign Up</legend>
+          <legend>Sign In</legend>
         </fieldset>
 
         <div class="form-group">
@@ -27,7 +27,10 @@
             </div>
           </div>
           <div class="form-group">
-              <button type="submit" class="btn btn-info pull-right">Submit</button>
+              <div class="col-lg-10">
+                <a href="/signup" class="btn btn-primary">Sign Up</a>
+                <button type="submit" class="btn btn-info pull-right">Log In</button>
+              </div>
           </div>
       </form>
     </div>

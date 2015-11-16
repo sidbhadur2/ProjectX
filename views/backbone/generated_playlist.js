@@ -8,7 +8,10 @@ var GeneratedPlaylistView = Backbone.View.extend({
 	},
 
 	save: function() {
-		// TODO
+		var name = prompt('Enter a name for your playlist', 'My New Playlist');
+		this.model.set('name', name);
+		$.post('/save', {playlist: this.model.toJSON()})
+		 .then(() => {window.location.href = '/profile'});
 	},
 	
 	className: 'generated-playlist',
