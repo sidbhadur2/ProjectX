@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+musixmatch/__init__.py
+musixmatch/album.py
+musixmatch/api.py
+musixmatch/artist.py
+musixmatch/base.py
+musixmatch/lyrics.py
+musixmatch/subtitle.py
+musixmatch/track.py
+musixmatch/ws.py
+musixmatch.egg-info/PKG-INFO
+musixmatch.egg-info/SOURCES.txt
+musixmatch.egg-info/dependency_links.txt
+musixmatch.egg-info/top_level.txt

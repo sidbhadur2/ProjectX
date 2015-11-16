@@ -16,6 +16,18 @@ def get_lyrics(artist, track):
 	lyrics_val = song.body.lyrics.lyrics_body
 	print lyrics_val
 
+def get_lyrics_list():
+	format = '&format=xml'
+	request = 'http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=3' +'&page_size=15' +'&ountry='+  '&f_has_lyrics=1' +'&apikey=16fdae5bf1aed25e5a2fb06ce16045a8' +format
+	response = urlopen(request)
+	data = response.read()
+	song = objectify.fromstring(data)
+	for i in range(15):
+		artist = song.body.track_list.track[i].artist_name
+		track = song.body.track_list.track[i].track_name 
+		print "get_lyrics" + "(" "\"" + artist + "\"" "," + "\"" + track + "\"" +  ")"
+		
+
 #ini = 'http://api.musixmatch.com/ws/1.1/'
 #apikey = '16fdae5bf1aed25e5a2fb06ce16045a8'
 #artist = 'queen'
@@ -91,3 +103,104 @@ def get_lyrics(artist, track):
 # lyrics48 = get_lyrics("ac-dc","hells-bells");
 # lyrics49 = get_lyrics("jay-sean","down");
 # lyrics50 = get_lyrics("michael-jackson","dirty-diana");
+#lyrics51 = get_lyrics("Green-Day", "Boulevard-of-Broken-Dreams") 
+#lyrics52 = get_lyrics("Red-Hot-Chili-Peppers" ,"Under-the-Bridge")
+#lyrics53 = get_lyrics("Adele", "Hello");
+#lyrics54 = get_lyrics("One-Direction" , "Home")
+#lyrics55 = get_lyrics("Justin-Bieber", "Sorry")
+#lyrics56 = get_lyrics("The-Weeknd" , "The-Hills")
+#lyrics57 = get_lyrics("Alessia-Cara" ,"Here")
+#lyrics58 = get_lyrics("Ariana-Grande", "Focus")
+#lyrics59 = get_lyrics("One-Direction" , "Drag-Me-Down")
+#lyrics60 = get_lyrics("Ellie-Goulding", "On-My-Mind")
+#lyrics61 = get_lyrics("Fetty-Wap-feat-Remy-Boyz" , "679")
+#lyrics62 = get_lyrics("Post-Malone" , "White-Iverson")
+#lyrics63 = get_lyrics("One-Direction", "What-a-Feeling")
+#lyrics64 = get_lyrics("Drake",  "Under-Ground-Kings")
+#lyrics65 = get_lyrics("Logic-feat-Big-Lenbo", "Young-Jesus")
+#lyrics66 = get_lyrics("Drake","Back-To-Back")
+#lyrics67 = get_lyrics("Ed-Sheeran", "Don-t")
+#lyrics68 = get_lyrics("Bee-Gees", "Staying-Alive")
+#lyrics69 = get_lyrics("Drake","Energy")
+#lyrics70 = get_lyrics("Kwabs", "Walk")
+#lyrics71 = get_lyrics("Kendrick-Lamar","Alright")
+#lyrics72 = get_lyrics("Lionel-Richie", "Hello")
+#lyrics73 = get_lyrics("Kirko-Bangz","Drank-In-My-Cup")
+#lyrics74 = get_lyrics("Bruno-Mars","Just-the-Way-You-Are")
+#lyrics75 = get_lyrics("Imagine-Dragons","Underdog")
+#lyrics76 = get_lyrics("Eminem","Space-Bound")
+#lyrics77 = get_lyrics("Young-the-Giant","Cough-Syrup")
+#lyrics78 = get_lyrics("Kanye-West","Stronger")
+#lyrics79 = get_lyrics("Andy-Grammer","The-Pocket")
+#lyrics80 = get_lyrics("John-Mayer","Half-of-My-Heart")
+#lyrics81 = get_lyrics("Aerosmith","Dream-On")
+#lyrics82 = get_lyrics("Oasis-3","Wonderwall")
+#lyrics83 = get_lyrics("Elton-John","Rocket-Man")
+#lyrics84 = get_lyrics("Alex-Clare","Too-Close")
+#lyrics85 = get_lyrics("Sol-6","2020")
+#lyrics86 = get_lyrics("Whitesnake","Here-I-Go-Again")
+#lyrics87 = get_lyrics("Adele-3","Someone-Like-You")
+#lyrics88 = get_lyrics("Ellie-Goulding","On-My-Mind")
+#lyrics89 = get_lyrics("One-Direction","Wolves")
+#lyrics90 = get_lyrics("Demi-Lovato","Confident")
+get_lyrics_list()
+# lyrics91 = get_lyrics()
+# lyrics92 = get_lyrics()
+# lyrics93 = get_lyrics()
+# lyrics94 = get_lyrics()
+# lyrics95 = get_lyrics()
+# lyrics96 = get_lyrics()
+# lyrics97 = get_lyrics()
+# lyrics98 = get_lyrics()
+# lyrics99 = get_lyrics()
+# lyrics100 = get_lyrics()
+# lyrics101 =
+# lyrics102 =
+# lyrics103 =
+# lyrics104 =
+# lyrics105 =
+# lyrics106 =
+# lyrics107 =
+# lyrics108 =
+# lyrics109 =
+# lyrics110 =
+# lyrics111 =
+# lyrics112 =
+# lyrics113 =
+# lyrics114 =
+# lyrics115 =
+# lyrics116 =
+# lyrics117 =
+# lyrics118 =
+# lyrics119 =
+# lyrics120 =
+# lyrics121 =
+# lyrics122 =
+# lyrics123 =
+# lyrics124 =
+# lyrics125 =
+# lyrics126 =
+# lyrics127 =
+# lyrics128 =
+# lyrics129 =
+# lyrics130 =
+# lyrics131 =
+# lyrics132 =
+# lyrics133 =
+# lyrics134 =
+# lyrics135 =
+# lyrics136 =
+# lyrics137 =
+# lyrics138 =
+# lyrics139 =
+# lyrics140 =
+# lyrics141 =
+# lyrics142 =
+# lyrics143 =
+# lyrics144 =
+# lyrics145 =
+# lyrics146 =
+# lyrics147 =
+# lyrics148 =
+# lyrics149 =
+# lyrics150 =
