@@ -18,14 +18,14 @@ def get_lyrics(artist, track):
 
 def get_lyrics_list():
 	format = '&format=xml'
-	request = 'http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=3' +'&page_size=15' +'&ountry='+  '&f_has_lyrics=1' +'&apikey=16fdae5bf1aed25e5a2fb06ce16045a8' +format
+	request = 'http://api.musixmatch.com/ws/1.1/chart.tracks.get?page=9' +'&page_size=15' +'&ountry='+  '&f_has_lyrics=1' +'&apikey=16fdae5bf1aed25e5a2fb06ce16045a8' +format
 	response = urlopen(request)
 	data = response.read()
 	song = objectify.fromstring(data)
 	for i in range(15):
 		artist = song.body.track_list.track[i].artist_name
 		track = song.body.track_list.track[i].track_name 
-		print "get_lyrics" + "(" "\"" + artist + "\"" "," + "\"" + track + "\"" +  ")"
+		print "l"+ str(181+i)+ " = " + "str" + "(" "get_lyrics" + "(" "\"" + artist + "\"" "," + "\"" + track + "\"" +  ")" + ")"
 		
 
 #ini = 'http://api.musixmatch.com/ws/1.1/'
@@ -144,63 +144,8 @@ def get_lyrics_list():
 #lyrics89 = get_lyrics("One-Direction","Wolves")
 #lyrics90 = get_lyrics("Demi-Lovato","Confident")
 get_lyrics_list()
-# lyrics91 = get_lyrics()
-# lyrics92 = get_lyrics()
-# lyrics93 = get_lyrics()
-# lyrics94 = get_lyrics()
-# lyrics95 = get_lyrics()
-# lyrics96 = get_lyrics()
-# lyrics97 = get_lyrics()
-# lyrics98 = get_lyrics()
-# lyrics99 = get_lyrics()
-# lyrics100 = get_lyrics()
-# lyrics101 =
-# lyrics102 =
-# lyrics103 =
-# lyrics104 =
-# lyrics105 =
-# lyrics106 =
-# lyrics107 =
-# lyrics108 =
-# lyrics109 =
-# lyrics110 =
-# lyrics111 =
-# lyrics112 =
-# lyrics113 =
-# lyrics114 =
-# lyrics115 =
-# lyrics116 =
-# lyrics117 =
-# lyrics118 =
-# lyrics119 =
-# lyrics120 =
-# lyrics121 =
-# lyrics122 =
-# lyrics123 =
-# lyrics124 =
-# lyrics125 =
-# lyrics126 =
-# lyrics127 =
-# lyrics128 =
-# lyrics129 =
-# lyrics130 =
-# lyrics131 =
-# lyrics132 =
-# lyrics133 =
-# lyrics134 =
-# lyrics135 =
-# lyrics136 =
-# lyrics137 =
-# lyrics138 =
-# lyrics139 =
-# lyrics140 =
-# lyrics141 =
-# lyrics142 =
-# lyrics143 =
-# lyrics144 =
-# lyrics145 =
-# lyrics146 =
-# lyrics147 =
-# lyrics148 =
-# lyrics149 =
-# lyrics150 =
+
+for i in range(15):
+	print "f = open" + "(" "'" + "l" + str(181+i) +".txt" + "','w')"
+	print "f.write(" + "l" + str(181+i) + ")" 
+	print "f.close()"
