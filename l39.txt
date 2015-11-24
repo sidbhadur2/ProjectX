@@ -19,3 +19,9 @@ Often
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.859650029904
+Sad = 0.140349970096
+
+Workout = 0.102949970096
+Chill = 0.897050029904

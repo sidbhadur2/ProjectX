@@ -20,3 +20,7 @@ Oh, yeah, your skin and bones
 
 Happy = 0.587496809626
 Sad = 0.412503190374
+
+Workout = 0.395690674992
+Chill = 0.604309325008
+

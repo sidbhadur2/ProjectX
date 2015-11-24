@@ -21,3 +21,9 @@ A disco ball is just hanging by a thread
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.838466370895
+Sad = 0.161533629105
+
+Workout = 0.124133629105
+Chill = 0.875866370895

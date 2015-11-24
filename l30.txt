@@ -23,3 +23,9 @@ Hot tramp Daddy's little cutie
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.833957615131
+Sad = 0.166042384869
+
+Workout = 0.871357615131
+Chill = 0.128642384869

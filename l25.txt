@@ -14,3 +14,9 @@ Narrow streets of cobblestone
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.649161346957
+Sad = 0.350838653043
+
+Workout = 0.690076238741
+Chill = 0.309923761259

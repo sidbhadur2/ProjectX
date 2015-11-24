@@ -33,3 +33,9 @@ Bump that new E-40 at the school
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.200820643822
+Sad = 0.799179356178
+
+Workout = 0.163420643822
+Chill = 0.836579356178

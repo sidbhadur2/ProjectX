@@ -11,3 +11,9 @@ You're the only one who really knew me at all
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.358982833156
+Sad = 0.641017166844
+
+Workout = 0.26969882509
+Chill = 0.73030117491

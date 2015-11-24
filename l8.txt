@@ -30,3 +30,6 @@ Now break your legs
 
 Happy = 0.607942217692
 Sad = 0.392057782308
+
+Workout = 0.645342217692
+Chill = 0.354657782308

@@ -17,3 +17,9 @@ Then I have nothing left to prove, nah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.80313538361
+Sad = 0.19686461639
+
+Workout = 0.15946461639
+Chill = 0.84053538361

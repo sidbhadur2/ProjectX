@@ -41,3 +41,9 @@ So is life, take a chance, roll a dice
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.774752022109
+Sad = 0.225247977891
+
+Workout = 0.812152022109
+Chill = 0.187847977891

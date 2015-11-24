@@ -29,3 +29,9 @@ Every musicians fan
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.744108877478
+Sad = 0.255891122522
+
+Workout = 0.781508877478
+Chill = 0.218491122522

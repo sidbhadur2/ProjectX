@@ -16,3 +16,9 @@ I am titanium
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.701848658548
+Sad = 0.298151341452
+
+Workout = 0.739248658548
+Chill = 0.260751341452

@@ -25,3 +25,6 @@ I be in the kitchen cookin' pies with my baby
 
 Happy = 0.692593804514
 Sad = 0.307406195486
+
+Workout = 0.729993804514
+Chill = 0.270006195486

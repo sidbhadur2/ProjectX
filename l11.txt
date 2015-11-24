@@ -27,3 +27,9 @@ Lose yourself to dance (Come on, come on, come on, come, on, come on, come on...
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.875394742157
+Sad = 0.124605257843
+
+Workout = 0.912794742157
+Chill = 0.0872052578434

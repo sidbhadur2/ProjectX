@@ -22,3 +22,9 @@ Yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.780574866642
+Sad = 0.219425133358
+
+Workout = 0.817974866642
+Chill = 0.182025133358

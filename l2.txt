@@ -29,3 +29,6 @@ Late night when you need my love
 
 Happy = 0.830064642163
 Sad = 0.169935357837
+
+Workout = 0.132535357837
+Chill = 0.867464642163

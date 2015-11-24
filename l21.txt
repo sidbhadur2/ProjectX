@@ -23,3 +23,9 @@ They know, they know, they know
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.840921619545
+Sad = 0.159078380455
+
+Workout = 0.878321619545
+Chill = 0.121678380455

@@ -12,3 +12,9 @@ Way on down south, London-town
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.632052442396
+Sad = 0.367947557604
+
+Workout = 0.715838979454
+Chill = 0.284161020546

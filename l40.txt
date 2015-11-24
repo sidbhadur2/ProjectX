@@ -26,3 +26,9 @@ When I attack, there ain't an army that could strike back
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.815175485361
+Sad = 0.184824514639
+
+Workout = 0.852575485361
+Chill = 0.147424514639

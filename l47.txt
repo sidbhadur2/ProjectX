@@ -23,3 +23,9 @@ Wore double X-L white T's as a freshman
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.693632830206
+Sad = 0.306367169794
+
+Workout = 0.731032830206
+Chill = 0.268967169794

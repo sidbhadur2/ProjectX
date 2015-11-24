@@ -40,3 +40,9 @@ Just like animals
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.654607084525
+Sad = 0.345392915475
+
+Workout = 0.692007084525
+Chill = 0.307992915475

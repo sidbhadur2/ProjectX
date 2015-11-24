@@ -20,3 +20,6 @@ Can't you see that you're smothering me?
 
 Happy = 0.53643872678
 Sad = 0.46356127322
+
+Workout = 0.57383872678
+Chill = 0.42616127322

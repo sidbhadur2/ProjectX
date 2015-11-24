@@ -146,6 +146,6 @@ def get_lyrics_list():
 get_lyrics_list()
 
 for i in range(15):
-	print "f = open" + "(" "'" + "l" + str(181+i) +".txt" + "','w')"
-	print "f.write(" + "l" + str(181+i) + ")" 
+	print "f = open" + "(" "'" + "l" + str(201+i) +".txt" + "','w')"
+	print "f.write(" + "l" + str(201+i) + ")" 
 	print "f.close()"

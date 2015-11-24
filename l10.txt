@@ -21,3 +21,6 @@ Then you wouldn't have to ask me
 
 Happy = 0.588335354631
 Sad = 0.411664645369
+
+Workout = 0.374264645369
+Chill = 0.625735354631

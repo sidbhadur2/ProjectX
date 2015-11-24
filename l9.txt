@@ -29,3 +29,6 @@ I'll live to see another day.
 
 Happy = 0.678129725201
 Sad = 0.321870274799
+
+Workout = 0.284470274799
+Chill = 0.715529725201

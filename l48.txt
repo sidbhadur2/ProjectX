@@ -14,3 +14,9 @@ Hells bells
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.731516071877
+Sad = 0.268483928123
+
+Workout = 0.799323938161
+Chill = 0.200676061839

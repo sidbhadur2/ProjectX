@@ -14,3 +14,9 @@ If you got bad news
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.413695831269
+Sad = 0.586304168731
+
+Workout = 0.666575814006
+Chill = 0.333424185994

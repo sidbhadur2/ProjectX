@@ -29,3 +29,9 @@ Even if the sky is falling down?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.698154502711
+Sad = 0.301845497289
+
+Workout = 0.264445497289
+Chill = 0.735554502711

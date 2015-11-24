@@ -24,3 +24,9 @@ Cause you and I
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.729181307826
+Sad = 0.270818692174
+
+Workout = 0.740384024167
+Chill = 0.259615975833

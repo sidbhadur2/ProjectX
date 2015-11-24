@@ -19,3 +19,9 @@ Can you love me again?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.76104206291
+Sad = 0.23895793709
+
+Workout = 0.79844206291
+Chill = 0.201557937

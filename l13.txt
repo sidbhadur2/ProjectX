@@ -27,3 +27,9 @@ Don't get too close
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.660279752864
+Sad = 0.339720247136
+
+Workout = 0.697679752864
+Chill = 0.302320247136

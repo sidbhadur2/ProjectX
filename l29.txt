@@ -17,3 +17,9 @@ And our friends are all on board
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.741176349739
+Sad = 0.258823650261
+
+Workout = 0.221423650261
+Chill = 0.778576349739

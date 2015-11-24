@@ -49,3 +49,6 @@ You're mother and me
 
 Happy = 0.592846313678
 Sad = 0.407153686322
+
+Workout = 0.630246313678
+Chill = 0.369753686322

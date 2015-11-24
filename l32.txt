@@ -10,3 +10,9 @@ I tried to give you consolation
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.404776950846
+Sad = 0.595223049154
+
+Workout = 0.337032560146
+Chill = 0.662967439854

@@ -40,3 +40,9 @@ Take a sip, sign a check
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.737595420398
+Sad = 0.262404579602
+
+Workout = 0.774995420398
+Chill = 0.225004579602

@@ -18,3 +18,9 @@ Don't blame it on me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.653344618657
+Sad = 0.346655381343
+
+Workout = 0.309255381343
+Chill = 0.690744618657

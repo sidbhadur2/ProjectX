@@ -23,3 +23,9 @@ Anything you want I'll give it up
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.740326738894
+Sad = 0.259673261106
+
+Workout = 0.777726738894
+Chill = 0.222273261106

@@ -34,3 +34,9 @@ You know that paper my passion
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.812685825392
+Sad = 0.187314174608
+
+Workout = 0.850085825392
+Chill = 0.149914174608

@@ -20,3 +20,9 @@ they got more whips than a runaway slave
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.786600321323
+Sad = 0.213399678677
+
+Workout = 0.824000321323
+Chill = 0.175999678677

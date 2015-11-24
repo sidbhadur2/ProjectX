@@ -19,3 +19,9 @@ We safe and sound
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.814782636634
+Sad = 0.185217363366
+
+Workout = 0.852182636634
+Chill = 0.147817363366

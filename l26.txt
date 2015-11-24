@@ -18,3 +18,9 @@ Where the children of tomorrow dream away
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.741172120527
+Sad = 0.258827879473
+
+Workout = 0.221427879473
+Chill = 0.778572120527

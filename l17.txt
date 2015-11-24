@@ -17,3 +17,9 @@ Let it go, let it go
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.758330153303
+Sad = 0.241669846697
+
+Workout = 0.204269846697
+Chill = 0.795730153303

@@ -35,3 +35,9 @@ And never wants to sleep I guess that I don't want to either
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.86996886127
+Sad = 0.13003113873
+
+Workout = 0.90736886127
+Chill = 0.0926311387296

@@ -29,3 +29,9 @@ Clap along if you feel like that's what you wanna do
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.881911957261
+Sad = 0.118088042739
+
+Workout = 0.919311957261
+Chill = 0.0806880427391

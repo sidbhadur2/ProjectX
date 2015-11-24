@@ -39,3 +39,9 @@ Man I'm hella faded
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.802302180587
+Sad = 0.197697819413
+
+Workout = 0.839702180587
+Chill = 0.160297819413

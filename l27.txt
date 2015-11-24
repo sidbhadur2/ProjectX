@@ -17,3 +17,9 @@ That was known to me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.672249962308
+Sad = 0.327750037692
+
+Workout = 0.290350037692
+Chill = 0.709649962308

@@ -20,3 +20,9 @@ i'll eb there .while i'm gone
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.559650029904
+Sad = 0.440349970096
+
+Workout = 0.0826468039279
+Chill = 0.917353196072

@@ -17,3 +17,9 @@ My shadow's the only one that walks beside me
 My shallow heart's the only thing that's beating
 Sometimes I wish someone out there will find me
 'Til then I walk alone
+
+Happy = 0.296309582484
+Sad = 0.703690417516
+
+Workout = 0.258909582484
+Chill = 0.741090417516
