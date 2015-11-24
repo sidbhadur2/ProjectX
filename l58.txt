@@ -20,3 +20,9 @@ Focus on me (Focus), f-f-focus on me (Focus on me)
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.750172177991
+Sad = 0.249827822009
+
+Workout = 0.787572177991
+Chill = 0.212427822009

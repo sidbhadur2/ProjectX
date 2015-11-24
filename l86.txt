@@ -22,3 +22,9 @@ I ain't wasting no more time
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.247628643398
+Sad = 0.752371356602
+
+Workout = 0.218080122676
+Chill = 0.781919877324

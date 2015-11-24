@@ -18,3 +18,9 @@ Come back to you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.777692616977
+Sad = 0.222307383023
+
+Workout = 0.807241137699
+Chill = 0.192758862301

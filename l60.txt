@@ -29,3 +29,9 @@ You didn't love me, no, not really
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.184890619426
+Sad = 0.815109380574
+
+Workout = 0.852509380574
+Chill = 0.14749061942

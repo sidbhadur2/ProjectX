@@ -28,3 +28,9 @@ I'm alive
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.763310508441
+Sad = 0.236689491559
+
+Workout = 0.792859029163
+Chill = 0.207140970837

@@ -34,3 +34,9 @@ To love again
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.180995841895
+Sad = 0.819004158105
+
+Workout = 0.151447321173
+Chill = 0.848552678827

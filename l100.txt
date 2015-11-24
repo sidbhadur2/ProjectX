@@ -22,3 +22,9 @@ Gonna hold up half the sky and say
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.745347737007
+Sad = 0.254652262993
+
+Workout = 0.77489625773
+Chill = 0.22510374227

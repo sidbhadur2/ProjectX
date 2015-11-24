@@ -19,3 +19,9 @@ One last kiss and then you're a goner
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.248452909228
+Sad = 0.751547090772
+
+Workout = 0.781095611495
+Chill = 0.218904388505

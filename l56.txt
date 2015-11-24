@@ -22,3 +22,9 @@ I'ma let you know and keep it simple
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.845968113048
+Sad = 0.154031886952
+
+Workout = 0.883368113048
+Chill = 0.116631886952

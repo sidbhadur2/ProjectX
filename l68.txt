@@ -26,3 +26,9 @@ The New York Times' effect on man
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.818726864421
+Sad = 0.181273135579
+
+Workout = 0.848275385144
+Chill = 0.151724614856

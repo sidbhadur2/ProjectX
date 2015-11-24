@@ -18,5 +18,8 @@ Like I did that day
 Take me to the place I love
 Take me all the way
 
-Happy = 0.788366508656
-Sad = 0.211633491344
+Happy = 0.211633491344
+Sad = 0.788366508656
+
+Workout = 0.272211919455
+Chill = 0.727788080545

@@ -11,3 +11,9 @@ I got the class ring, she got the diamond and wedding band
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.830984255625
+Sad = 0.169015744375
+
+Workout = 0.139467223653
+Chill = 0.860532776347

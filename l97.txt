@@ -11,3 +11,9 @@ Give me a drink
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.241685314357
+Sad = 0.758314685643
+
+Workout = 0.212136793634
+Chill = 0.787863206366

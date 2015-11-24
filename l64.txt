@@ -22,3 +22,9 @@ With fame on my mind, my girl on my nerves
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.917251504641
+Sad = 0.0827484953588
+
+Workout = 0.946800025364
+Chill = 0.0531999746363

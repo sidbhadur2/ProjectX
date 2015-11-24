@@ -16,3 +16,10 @@ When you're lost, I'll find a way and I'll be your light
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.280659183024
+Sad = 0.719340816976
+
+Workout = 0.243259183024
+Chill = 0.756740816976
+

@@ -25,3 +25,9 @@ for everything that I've done
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.332884025371
+Sad = 0.667115974629
+
+Workout = 0.332884025371
+Chill = 0.667115974629

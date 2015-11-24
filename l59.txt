@@ -22,3 +22,9 @@ Nobody, nobody
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.749782892312
+Sad = 0.250217107688
+
+Workout = 0.787182892312
+Chill = 0.212817107688

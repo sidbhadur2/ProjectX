@@ -14,3 +14,9 @@ And I want to tell you so much
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.755656800014
+Sad = 0.244343199986
+
+Workout = 0.214794679263
+Chill = 0.785205320737

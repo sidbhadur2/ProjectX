@@ -22,3 +22,9 @@ I got it on me, I got it on me, got it on me, I got it on me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.786416215396
+Sad = 0.213583784604
+
+Workout = 0.815964736118
+Chill = 0.184035263882

@@ -18,3 +18,9 @@ There are many things that I would like to say to you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.795214405107
+Sad = 0.204785594893
+
+Workout = 0.82476292583
+Chill = 0.17523707417

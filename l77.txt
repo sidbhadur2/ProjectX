@@ -13,3 +13,9 @@ Life's too short to even care at all, oh, oh
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.302257063427
+Sad = 0.697742936573
+
+Workout = 0.727291457296
+Chill = 0.272708542704

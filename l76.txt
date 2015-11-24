@@ -24,3 +24,9 @@ And I'm aimin' right at you, right at you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.781055762812
+Sad = 0.218944237188
+
+Workout = 0.810604283534
+Chill = 0.189395716466

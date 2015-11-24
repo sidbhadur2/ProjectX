@@ -17,3 +17,9 @@ I'm sorry, yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.186499775127
+Sad = 0.813500224873
+
+Workout = 0.149099775127
+Chill = 0.850900224873

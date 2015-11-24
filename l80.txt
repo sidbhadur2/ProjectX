@@ -15,3 +15,9 @@ lonely was the song I sang, 'til the day you came
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.824114840061
+Sad = 0.175885159939
+
+Workout = 0.853663360783
+Chill = 0.146336639217

@@ -19,3 +19,9 @@ There's not a thing that I would change
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.768566237385
+Sad = 0.231433762615
+
+Workout = 0.201885241893
+Chill = 0.798114758107

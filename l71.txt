@@ -38,3 +38,10 @@ Boys and girls, I think I gon' crazy
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.737675236567
+Sad = 0.262324763433
+
+Workout = 0.23277624271
+Chill = 0.76722375729
+

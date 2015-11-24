@@ -19,3 +19,9 @@ And you know me, in my 2-3s and my gold teeth
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.737870444067
+Sad = 0.262129555933
+
+Workout = 0.567418964789
+Chill = 0.432581035211

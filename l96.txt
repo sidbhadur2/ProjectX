@@ -20,3 +20,9 @@ You're like fuck it oh well
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.783480718781
+Sad = 0.216519281219
+
+Workout = 0.813029239503
+Chill = 0.186970760497

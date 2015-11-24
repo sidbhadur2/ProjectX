@@ -22,3 +22,9 @@ I want a teacher who's eager to speak her mind
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.805860994577
+Sad = 0.194139005423
+
+Workout = 0.1645904847
+Chill = 0.8354095153

@@ -18,3 +18,9 @@ And still look good for you, good for you, uh-huh
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.798142343493
+Sad = 0.201857656507
+
+Workout = 0.827690864215
+Chill = 0.172309135785

@@ -19,3 +19,9 @@ What a feeling to be a king beside you, somehow
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.765527156634
+Sad = 0.234472843366
+
+Workout = 0.20492432264
+Chill = 0.795075677356

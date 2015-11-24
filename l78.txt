@@ -45,3 +45,10 @@ More than ever hour after hour work is never over
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.765569447923
+Sad = 0.234430552077
+
+Workout = 0.795117968646
+Chill = 0.204882031354
+

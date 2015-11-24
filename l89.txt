@@ -25,3 +25,9 @@ I hear them calling for you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.753972587841
+Sad = 0.246027412159
+
+Workout = 0.783521108563
+Chill = 0.216478891437

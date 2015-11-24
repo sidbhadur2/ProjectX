@@ -29,3 +29,9 @@ Is it money or it's me?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.675018683861
+Sad = 0.324981316139
+
+Workout = 0.704567204584
+Chill = 0.295432795416

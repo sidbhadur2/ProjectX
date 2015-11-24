@@ -170,7 +170,7 @@
     # tweet15 = ['Ooh',' watch',' me',' watch',' me']
     # tweet16 =['Ooh',' ooh',' ooh',' ooh']
     # tweet17 =['Ooh',' ooh',' ooh',' ooh']
-    
+
 #l9
     # tweet1 = ['Well ','you ','can',' tell ','by',' the',' way ','I ','use ','my',' walk']
     # tweet2 = [' Im',' a ','womans ','man',' no',' time ','to',' talk']
@@ -1438,6 +1438,8 @@ tweet28 = ['You', "didn't", 'love', 'me,', 'no,', 'not', 'really']
 tweet29 = ['...']
 tweet30 = ['']
 tweet31 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+61
 tweet1 = ['Yeaaah', 'baby,', '17']
 tweet2 = ['Ay,', 'ay,', 'look']
 tweet3 = ['']
@@ -1469,6 +1471,8 @@ tweet28 = ['Is', 'it', 'money', 'or', "it's", 'me?']
 tweet29 = ['...']
 tweet30 = ['']
 tweet31 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+62
 tweet1 = ['Double', 'OT']
 tweet2 = ["I'm", 'a', 'new', 'breed']
 tweet3 = ["Saucin',", "saucin',", "I'm", "saucin'", 'on', 'you']
@@ -1490,6 +1494,8 @@ tweet18 = ['And', 'you', 'know', 'me,', 'in', 'my', '2-3s', 'and', 'my', 'gold',
 tweet19 = ['...']
 tweet20 = ['']
 tweet21 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+63
 tweet1 = ['Through', 'the', 'wire,', 'through', 'the', 'wire,', 'through', 'the', 'wire']
 tweet2 = ["I'm", 'watching', 'her', 'dance']
 tweet3 = ['Dress', 'is', 'catching', 'the', 'light']
@@ -1511,6 +1517,8 @@ tweet18 = ['What', 'a', 'feeling', 'to', 'be', 'a', 'king', 'beside', 'you,', 's
 tweet19 = ['...']
 tweet20 = ['']
 tweet21 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+64
 tweet1 = ['Bridge', 'over', 'troubled', 'water,', 'ice', 'in', 'my', 'muddy', 'water']
 tweet2 = ['Rich', 'off', 'a', 'mixtape,', 'got', 'rich', 'off', 'a', 'mixtape']
 tweet3 = ['Probably', "shouldn't", 'be', 'driving,', 'it', 'just', 'got', 'so', 'much', 'harder']
@@ -1535,6 +1543,8 @@ tweet21 = ['With', 'fame', 'on', 'my', 'mind,', 'my', 'girl', 'on', 'my', 'nerve
 tweet22 = ['...']
 tweet23 = ['']
 tweet24 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+65
 tweet1 = ['Yeah,', 'yeah']
 tweet2 = ['What', 'up', 'Bobby']
 tweet3 = ['This', 'that', '95', 'shit', 'right', 'here']
@@ -1565,6 +1575,8 @@ tweet27 = ['But', 'I', 'swear', 'that', "I'm", 'not', 'that', 'neurotic', 'over'
 tweet28 = ['...']
 tweet29 = ['']
 tweet30 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+66
 tweet1 = ['Oh', 'man,', 'oh', 'man,', 'oh', 'man']
 tweet2 = ['']
 tweet3 = ['Not', 'again']
@@ -1588,6 +1600,8 @@ tweet20 = ['But', 'I', 'guess', 'this', 'is', 'what', 'I', 'gotta', 'do', 'to', 
 tweet21 = ['...']
 tweet22 = ['']
 tweet23 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+67
 tweet1 = ['I', 'met', 'this', 'girl', 'late', 'last', 'year']
 tweet2 = ['She', 'said', "don't", 'you', 'worry', 'if', 'I', 'disappear']
 tweet3 = ['I', 'told', 'her', "I'm", 'not', 'really', 'looking', 'for', 'another', 'mistake']
@@ -1625,6 +1639,8 @@ tweet34 = ['And', 'never', 'wants', 'to', 'sleep', 'I', 'guess', 'that', 'I', "d
 tweet35 = ['...']
 tweet36 = ['']
 tweet37 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+68
 tweet1 = ['Well,', 'you', 'can', 'tell', 'by', 'the', 'way', 'I', 'use', 'my', 'walk']
 tweet2 = ["I'm", 'a', "woman's", 'man,', 'no', 'time', 'to', 'talk']
 tweet3 = ['Music', 'loud', 'and', 'women', 'warm']
@@ -1653,6 +1669,8 @@ tweet25 = ['The', 'New', 'York', "Times'", 'effect', 'on', 'man']
 tweet26 = ['...']
 tweet27 = ['']
 tweet28 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+69
 tweet1 = ['Lickwood', 'means', 'rewind,', 'a', 'gunshot', 'means', 'forward']
 tweet2 = ['You', 'requested', 'it', 'so', 'we', 'rewind']
 tweet3 = ['']
@@ -1676,6 +1694,8 @@ tweet20 = ['They', 'tryna', 'take', 'the', 'waaave', 'from', 'a', 'nigga']
 tweet21 = ['...']
 tweet22 = ['']
 tweet23 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+70
 tweet1 = ['Gotta', 'slow', 'up,', 'gotta', 'shake', 'this', 'high']
 tweet2 = ['Gotta', 'take', 'a', 'minute', 'just', 'to', 'ease', 'my', 'mind']
 tweet3 = ['Cause', 'if', 'I', "don't", 'walk', 'then', 'I', 'get', 'caught', 'up']
@@ -1705,6 +1725,8 @@ tweet26 = ['And', "I'll", 'be', 'falling', 'all', 'the', 'way', 'down.']
 tweet27 = ['...']
 tweet28 = ['']
 tweet29 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+71
 tweet1 = ['Alls', 'my', 'life', 'I', 'has', 'to', 'fight', 'nigga']
 tweet2 = ['Alls', 'my', 'life', 'I']
 tweet3 = ['Hard', 'times', 'like', 'God']
@@ -1745,6 +1767,8 @@ tweet37 = ['Boys', 'and', 'girls,', 'I', 'think', 'I', "gon'", 'crazy']
 tweet38 = ['...']
 tweet39 = ['']
 tweet40 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+72
 tweet1 = ["I've", 'been', 'alone', 'with', 'you', 'inside', 'my', 'mind']
 tweet2 = ['And', 'in', 'my', 'dreams']
 tweet3 = ["I've", 'kissed', 'your', 'lips', 'a', 'thousand', 'times']
@@ -1761,6 +1785,8 @@ tweet13 = ['And', 'I', 'want', 'to', 'tell', 'you', 'so', 'much']
 tweet14 = ['...']
 tweet15 = ['']
 tweet16 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+73
 tweet1 = ['Kirko', 'Bangz']
 tweet2 = ['']
 tweet3 = ['See', 'me', "ridin',", 'my', 'nigga?']
@@ -1785,6 +1811,8 @@ tweet21 = ['I', 'got', 'it', 'on', 'me,', 'I', 'got', 'it', 'on', 'me,', 'got', 
 tweet22 = ['...']
 tweet23 = ['']
 tweet24 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+74
 tweet1 = ['ohh', 'ohh', 'ohh', 'ohh', 'ohh']
 tweet2 = ['Oh,', 'her', 'eyes,', 'her', 'eyes']
 tweet3 = ['Make', 'the', 'stars', 'look', 'like', "they're", 'not', 'shining']
@@ -1806,6 +1834,8 @@ tweet18 = ["'Cause", "you're", 'amazing', 'just', 'the', 'way', 'you', 'are']
 tweet19 = ['...']
 tweet20 = ['']
 tweet21 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+75
 tweet1 = ['Early', 'morning', 'take', 'me', 'over']
 tweet2 = ['Father,', 'father,', 'father']
 tweet3 = ['Take', 'me', 'to', 'the', 'top']
@@ -1833,6 +1863,8 @@ tweet24 = ['Who', 'am', 'I', 'to', 'blame?']
 tweet25 = ['...']
 tweet26 = ['']
 tweet27 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+76
 tweet1 = ['We', 'touch,', 'I', 'feel', 'a', 'rush,', 'we', 'clutch,', 'it', "isn't", 'much']
 tweet2 = ['But', "it's", 'enough', 'to', 'make', 'me', 'wonder', "what's", 'in', 'store', 'for', 'us']
 tweet3 = ["It's", 'lust,', "it's", 'torturous,', 'you', 'must', 'be', 'a', 'sorceress']
@@ -1859,6 +1891,8 @@ tweet23 = ['And', "I'm", "aimin'", 'right', 'at', 'you,', 'right', 'at', 'you']
 tweet24 = ['...']
 tweet25 = ['']
 tweet26 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+77
 tweet1 = ["Life's", 'too', 'short', 'to', 'even', 'care', 'at', 'all,', 'oh']
 tweet2 = ["I'm", 'losing', 'my', 'mind', 'losing', 'my', 'mind', 'losing', 'control']
 tweet3 = ['These', 'fishes', 'in', 'the', 'sea', "they're", 'staring', 'at', 'me', 'oh', 'oh']
@@ -1874,6 +1908,8 @@ tweet12 = ["Life's", 'too', 'short', 'to', 'even', 'care', 'at', 'all,', 'oh,', 
 tweet13 = ['...']
 tweet14 = ['']
 tweet15 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+78
 tweet1 = ['N-n-now', 'that', "don't", 'kill', 'me']
 tweet2 = ['Can', 'only', 'make', 'me', 'stronger.']
 tweet3 = ['']
@@ -1921,6 +1957,8 @@ tweet44 = ['More', 'than', 'ever', 'hour', 'after', 'hour', 'work', 'is', 'never
 tweet45 = ['...']
 tweet46 = ['']
 tweet47 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+79
 tweet1 = ['Do', 'you', 'want', 'to', 'be', 'my', 'love,', 'my', 'sight,', 'my', 'heart,', 'and', 'my', 'eyes']
 tweet2 = ['My', 'world,', 'my', 'pride,', 'my', 'stars', 'in', 'my', 'skies']
 tweet3 = ["I'm", 'looking', 'for', 'a', 'queen', "who's", 'more', 'than', 'gorgeous', 'on', 'a', 'movie', 'screen']
@@ -1945,6 +1983,8 @@ tweet21 = ['I', 'want', 'a', 'teacher', "who's", 'eager', 'to', 'speak', 'her', 
 tweet22 = ['...']
 tweet23 = ['']
 tweet24 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+80
 tweet1 = ['I', 'was', 'born', 'in', 'the', 'arms', 'of', 'imaginary', 'friends']
 tweet2 = ['Free', 'to', 'roam,', 'made', 'a', 'home', 'out', 'of', 'everywhere', "I've", 'been']
 tweet3 = ['Then', 'you', 'come', 'crashing', 'in,', 'like', 'the', 'realest', 'thing,']
@@ -1962,6 +2002,8 @@ tweet14 = ['lonely', 'was', 'the', 'song', 'I', 'sang,', "'til", 'the', 'day', '
 tweet15 = ['...']
 tweet16 = ['']
 tweet17 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+81
 tweet1 = ['Every', 'time', 'that', 'I', 'look', 'in', 'the', 'mirror']
 tweet2 = ['All', 'these', 'lines', 'in', 'my', 'face', "gettin'", 'clearer']
 tweet3 = ['The', 'past', 'is', 'gone']
@@ -1982,6 +2024,8 @@ tweet17 = ['Come', 'back', 'to', 'you']
 tweet18 = ['...']
 tweet19 = ['']
 tweet20 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+82
 tweet1 = ['Today', 'is', 'gonna', 'be', 'the', 'day']
 tweet2 = ['That', "they're", 'gonna', 'throw', 'it', 'back', 'to', 'you']
 tweet3 = ['By', 'now', 'you', "should've", 'somehow']
@@ -2002,6 +2046,8 @@ tweet17 = ['There', 'are', 'many', 'things', 'that', 'I', 'would', 'like', 'to',
 tweet18 = ['...']
 tweet19 = ['']
 tweet20 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+83
 tweet1 = ['She', 'packed', 'my', 'bags', 'last', 'night', 'pre-flight']
 tweet2 = ['Zero', 'hour', 'nine', 'a.m.']
 tweet3 = ['And', "I'm", 'gonna', 'be', 'high...']
@@ -2023,6 +2069,8 @@ tweet18 = ['Till', 'touch', 'down', 'brings', 'me', 'round', 'again', 'to', 'fin
 tweet19 = ['...']
 tweet20 = ['']
 tweet21 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+84
 tweet1 = ['You', 'know', "I'm", 'not', 'one', 'to', 'break', 'promises']
 tweet2 = ['I', "don't", 'want', 'to', 'hurt', 'you', 'but', 'I', 'need', 'to', 'breathe']
 tweet3 = ['But', 'at', 'the', 'end', 'of', 'it', 'all,', "you're", 'still', 'my', 'best', 'friend']
@@ -2040,6 +2088,8 @@ tweet14 = ['Got', 'to', 'be', 'true', 'to', 'myself']
 tweet15 = ['...']
 tweet16 = ['']
 tweet17 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+85
 tweet1 = ['killing', 'the', 'game', 'feeling', 'like', "i'm", "huntin'", 'safari']
 tweet2 = ['you', 'got', 'that', 'Jesus', 'on', 'your', 'chain', 'while', 'you', 'do', 'nothing', 'but', 'party']
 tweet3 = ['i', 'got', 'my', 'weed', 'i', 'got', 'my', 'drink', 'but', "i'm", 'focused']
@@ -2062,6 +2112,8 @@ tweet19 = ["i'll", 'eb', 'there', '.while', "i'm", 'gone']
 tweet20 = ['...']
 tweet21 = ['']
 tweet22 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+86
 tweet1 = ['I', "don't", 'know', 'where', "I'm", 'going']
 tweet2 = ['But,', "I'm", 'sure', 'know', 'where', "I've", 'been']
 tweet3 = ['Hanging', 'on', 'the', 'promises']
@@ -2086,6 +2138,8 @@ tweet21 = ['I', "ain't", 'wasting', 'no', 'more', 'time']
 tweet22 = ['...']
 tweet23 = ['']
 tweet24 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+87
 tweet1 = ['I', 'heard', 'that', "you're", 'settled', 'down']
 tweet2 = ['That', 'you', 'found', 'a', 'girl']
 tweet3 = ['And', "you're", 'married', 'now']
@@ -2106,6 +2160,8 @@ tweet17 = ['Never', 'mind', "I'll", 'find', 'someone', 'like', 'you']
 tweet18 = ['...']
 tweet19 = ['']
 tweet20 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+88
 tweet1 = ["It's", 'a', 'little', 'dirty', 'how', 'the', 'whole', 'thing', 'started']
 tweet2 = ['I', "don't", 'even', 'really', 'know', 'what', 'you', 'intended']
 tweet3 = ['Thought', 'that', 'you', 'were', 'cute', 'and', 'you', 'could', 'make', 'me', 'jealous']
@@ -2137,6 +2193,8 @@ tweet28 = ['You', "didn't", 'love', 'me,', 'no,', 'not', 'really']
 tweet29 = ['...']
 tweet30 = ['']
 tweet31 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+89
 tweet1 = ['hear', 'them', 'calling', 'for', 'you']
 tweet2 = ['I', 'hear', 'them', 'calling', 'for', 'you']
 tweet3 = ['']
@@ -2164,6 +2222,8 @@ tweet24 = ['I', 'hear', 'them', 'calling', 'for', 'you']
 tweet25 = ['...']
 tweet26 = ['']
 tweet27 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+90
 tweet1 = ['Are', 'you', 'ready?', 'Ha']
 tweet2 = ['']
 tweet3 = ["It's", 'time', 'for', 'me', 'to', 'take', 'it']
@@ -2187,6 +2247,8 @@ tweet20 = ['Rated,', 'rated,', 'rated']
 tweet21 = ['...']
 tweet22 = ['']
 tweet23 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+91
 tweet1 = ['Oh', "don't", 'you', 'dare', 'look', 'back']
 tweet2 = ['Just', 'keep', 'your', 'eyes', 'on', 'me.']
 tweet3 = ['I', 'said', "you're", 'holding', 'back,']
@@ -2213,6 +2275,8 @@ tweet23 = ['This', 'woman', 'is', 'my', 'destiny']
 tweet24 = ['...']
 tweet25 = ['']
 tweet26 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+92
 tweet1 = ['You', "ain't", 'gotta', 'answer', 'none', 'of', 'my', 'calls']
 tweet2 = ["I'm", 'believing', "you'll", 'pick', 'up', 'one', 'day']
 tweet3 = ['']
@@ -2249,6 +2313,8 @@ tweet33 = ['To', 'love', 'again']
 tweet34 = ['...']
 tweet35 = ['']
 tweet36 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+93
 tweet1 = ['I', 'was', 'born', 'in', 'a', 'thunderstorm']
 tweet2 = ['I', 'grew', 'up', 'overnight']
 tweet3 = ['I', 'played', 'alone']
@@ -2279,6 +2345,8 @@ tweet27 = ['']
 tweet28 = ['...']
 tweet29 = ['']
 tweet30 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+94
 tweet1 = ['Something', 'like', 'a', 'strong', 'wind', 'is', 'coming', 'over', 'me']
 tweet2 = ['Has', 'got', 'a', 'hold', 'of', 'me,', 'yeah']
 tweet3 = ['Thinking', 'and', 'doing', 'things', 'I', "shouldn't", 'be']
@@ -2300,6 +2368,8 @@ tweet18 = ['One', 'last', 'kiss', 'and', 'then', "you're", 'a', 'goner']
 tweet19 = ['...']
 tweet20 = ['']
 tweet21 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+95
 tweet1 = ["I'm", 'in', 'my', '14', 'carats']
 tweet2 = ["I'm", '14', 'carat']
 tweet3 = ['Doing', 'it', 'up', 'like', 'Midas,', 'mmm']
@@ -2320,6 +2390,8 @@ tweet17 = ['And', 'still', 'look', 'good', 'for', 'you,', 'good', 'for', 'you,',
 tweet18 = ['...']
 tweet19 = ['']
 tweet20 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+96
 tweet1 = ["You're", 'my', 'right', 'hand,', "you're", 'my', 'go', 'to']
 tweet2 = ['Told', 'me', 'everything', 'about', 'you']
 tweet3 = ["That's", 'a', 'bold', 'move']
@@ -2342,6 +2414,8 @@ tweet19 = ['']
 tweet20 = ['...']
 tweet21 = ['']
 tweet22 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+97
 tweet1 = ["I'm", 'gonna', 'need', 'someone', 'to', 'help', 'me']
 tweet2 = ["I'm", 'gonna', 'need', 'somebodies', 'hand']
 tweet3 = ["I'm", 'gonna', 'need', 'someone', 'to', 'hold', 'me', 'down']
@@ -2355,6 +2429,8 @@ tweet10 = ['Give', 'me', 'a', 'drink']
 tweet11 = ['...']
 tweet12 = ['']
 tweet13 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+98
 tweet1 = ['I', 'saw', 'your', 'picture', 'in', 'a', 'paper,', 'Honeymoon', 'in', 'Jamaica,']
 tweet2 = ["she's", 'a', 'lucky', 'girl']
 tweet3 = ['You', 'look', 'so', 'grown', 'up', 'in', 'your', 'black', 'tux,']
@@ -2368,6 +2444,8 @@ tweet10 = ['I', 'got', 'the', 'class', 'ring,', 'she', 'got', 'the', 'diamond', 
 tweet11 = ['...']
 tweet12 = ['']
 tweet13 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+99
 tweet1 = ['My', 'life', 'is', 'a', 'movie']
 tweet2 = ['and', "everyone's", 'watching']
 tweet3 = ['so', "let's", 'get', 'to', 'the', 'good', 'part']
@@ -2390,6 +2468,8 @@ tweet19 = ['']
 tweet20 = ['...']
 tweet21 = ['']
 tweet22 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+
+100
 tweet1 = ['Turn', 'your', 'magic', 'on,', 'to', 'me', "she'd", 'say']
 tweet2 = ['Everything', 'you', "want's", 'a', 'dream', 'away']
 tweet3 = ['We', 'are', 'legends,', 'every', 'day']

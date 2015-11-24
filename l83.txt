@@ -19,3 +19,9 @@ Till touch down brings me round again to find
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.722866571802
+Sad = 0.277133428198
+
+Workout = 0.247584907476
+Chill = 0.752415092524

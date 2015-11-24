@@ -20,3 +20,9 @@ I know for sure
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.793435276002
+Sad = 0.206564723998
+
+Workout = 0.822983796724
+Chill = 0.177016203276

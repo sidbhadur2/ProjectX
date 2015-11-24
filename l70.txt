@@ -27,3 +27,9 @@ And I'll be falling all the way down.
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.786066407077
+Sad = 0.213933592923
+
+Workout = 0.8156149278
+Chill = 0.1843850722

@@ -21,3 +21,9 @@ Rated, rated, rated
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.747563157282
+Sad = 0.252436842718
+
+Workout = 0.777111678004
+Chill = 0.222888321996

@@ -21,3 +21,9 @@ But I guess this is what I gotta do to make y'all rap
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.793393192907
+Sad = 0.206606807093
+
+Workout = 0.822941713629
+Chill = 0.177058286371

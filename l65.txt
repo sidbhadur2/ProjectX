@@ -28,3 +28,9 @@ But I swear that I'm not that neurotic over here, yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.782493580865
+Sad = 0.217506419135
+
+Workout = 0.812042101587
+Chill = 0.187957898413

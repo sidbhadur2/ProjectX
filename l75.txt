@@ -25,3 +25,9 @@ Who am I to blame?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.192266392279
+Sad = 0.807733607721
+
+Workout = 0.162717871557
+Chill = 0.837282128443
