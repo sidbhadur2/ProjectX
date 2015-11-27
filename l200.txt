@@ -30,3 +30,9 @@ Do-do-do-do do-do-do-do
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.6027527914
+Sad = 0.3972472086
+
+Workout = 0.632301312122
+Chill = 0.367698687878

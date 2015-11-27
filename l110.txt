@@ -19,3 +19,9 @@ No FaceTime but the people want to Skype me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.791482580448
+Sad = 0.208517419552
+
+Workout = 0.82103110117
+Chill = 0.17896889883

@@ -15,3 +15,9 @@ Before we turn into a monster with 2 heads
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.817996114879
+Sad = 0.182003885121
+
+Workout = 0.847544635601
+Chill = 0.15245536439

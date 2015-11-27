@@ -16,3 +16,9 @@ Can't quit those lips are a habit to me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.22196995591
+Sad = 0.77803004409
+
+Workout = 0.807578564813
+Chill = 0.192421435187

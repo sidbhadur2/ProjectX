@@ -16,3 +16,9 @@ But I love it, but I love it, oh
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.767688302017
+Sad = 0.232311697983
+
+Workout = 0.797236822739
+Chill = 0.202763177261

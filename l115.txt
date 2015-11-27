@@ -20,3 +20,9 @@ How come I'm never able to identify where it's coming from
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.807103338403
+Sad = 0.192896661597
+
+Workout = 0.836651859125
+Chill = 0.163348140875

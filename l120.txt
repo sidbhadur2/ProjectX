@@ -27,3 +27,9 @@ I got sexual healing
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.755660678206
+Sad = 0.244339321794
+
+Workout = 0.785209198929
+Chill = 0.214790801071

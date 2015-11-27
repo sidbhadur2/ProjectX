@@ -17,3 +17,9 @@ Imma fuck yo bitch, call me Houdini
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.743943489849
+Sad = 0.256056510151
+
+Workout = 0.773492010572
+Chill = 0.226507989428

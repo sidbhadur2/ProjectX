@@ -9,3 +9,9 @@ Mark my words
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.726110296181
+Sad = 0.273889703819
+
+Workout = 0.755658816903
+Chill = 0.244341183097

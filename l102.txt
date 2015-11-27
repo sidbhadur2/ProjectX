@@ -19,3 +19,9 @@ How do I live? How do I breathe?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.259398890739
+Sad = 0.740601109261
+
+Workout = 0.229850370016
+Chill = 0.770149629984

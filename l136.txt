@@ -17,3 +17,9 @@ Yeah, the wanderer
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.732185330886
+Sad = 0.267814669114
+
+Workout = 0.238266148391
+Chill = 0.761733851609

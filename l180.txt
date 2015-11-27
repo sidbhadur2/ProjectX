@@ -22,3 +22,9 @@ And I wind up feeling down
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.855698720234
+Sad = 0.144301279766
+
+Workout = 0.114752759044
+Chill = 0.885247240956

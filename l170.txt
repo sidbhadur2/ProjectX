@@ -21,3 +21,9 @@ Is it too late to say that I'm sorry now?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.826215602445
+Sad = 0.173784397555
+
+Workout = 0.855764123168
+Chill = 0.144235876832

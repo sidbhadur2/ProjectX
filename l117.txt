@@ -15,3 +15,9 @@ I know you ain't in love with him, break up with him
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.78113118462
+Sad = 0.21886881538
+
+Workout = 0.810679705342
+Chill = 0.189320294658

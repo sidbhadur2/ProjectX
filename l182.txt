@@ -18,3 +18,9 @@ But I could change all that
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.790642333014
+Sad = 0.209357666986
+
+Workout = 0.820190853737
+Chill = 0.179809146263

@@ -32,3 +32,9 @@ Got a long list of ex-lovers
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.751270336135
+Sad = 0.248729663865
+
+Workout = 0.780818856858
+Chill = 0.219181143142

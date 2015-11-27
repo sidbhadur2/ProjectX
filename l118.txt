@@ -16,3 +16,9 @@ He's a big-city, hard-working man just trying to climb the ladder
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.735064086982
+Sad = 0.264935913018
+
+Workout = 0.764612607704
+Chill = 0.235387392296

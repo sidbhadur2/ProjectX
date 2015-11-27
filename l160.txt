@@ -18,3 +18,9 @@ Never mind I'll find someone like you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.773680391566
+Sad = 0.226319608434
+
+Workout = 0.803228912289
+Chill = 0.196771087711

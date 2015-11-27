@@ -25,3 +25,9 @@ Girl you ain't gotta, I ain't gotta go
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.712820417621
+Sad = 0.287179582379
+
+Workout = 0.742368938343
+Chill = 0.257631061657

@@ -18,3 +18,9 @@ Yeah, let me see you girl.
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.765398340892
+Sad = 0.234601659108
+
+Workout = 0.794946861614
+Chill = 0.205053138386

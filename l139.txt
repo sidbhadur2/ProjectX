@@ -14,3 +14,9 @@ Better ohohohoh
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.734019831061
+Sad = 0.265980168939
+
+Workout = 0.763568351784
+Chill = 0.236431648216

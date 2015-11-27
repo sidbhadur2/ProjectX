@@ -17,3 +17,9 @@ And I, I just wanna keep on waiting
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.769352378538
+Sad = 0.230647621462
+
+Workout = 0.201099100739
+Chill = 0.798900899261

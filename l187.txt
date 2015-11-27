@@ -15,3 +15,9 @@ A truth so loud you can't ignore
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.713632813649
+Sad = 0.286367186351
+
+Workout = 0.256818665628
+Chill = 0.743181334372

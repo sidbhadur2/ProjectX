@@ -12,3 +12,9 @@ Let's go down, down, down to the river (You will leave changed)
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.798207619514
+Sad = 0.201792380486
+
+Workout = 0.827756140237
+Chill = 0.172243859763

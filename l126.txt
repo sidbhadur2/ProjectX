@@ -20,3 +20,9 @@ May nothing but death do us part
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.689299680566
+Sad = 0.310700319434
+
+Workout = 0.718848201289
+Chill = 0.281151798711

@@ -17,3 +17,9 @@ I called you last night in the hotel
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.197524703771
+Sad = 0.802475296229
+
+Workout = 0.167976183049
+Chill = 0.832023816951

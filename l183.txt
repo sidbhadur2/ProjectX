@@ -16,3 +16,9 @@ But get out aliver, out of the fire
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.766102307285
+Sad = 0.233897692715
+
+Workout = 0.795650828008
+Chill = 0.204349171992

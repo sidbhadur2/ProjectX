@@ -19,3 +19,9 @@ I-I-I-I-I-I keep on hoping we'll eat cake by the ocean
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.770356982925
+Sad = 0.229643017075
+
+Workout = 0.799905503647
+Chill = 0.200094496353

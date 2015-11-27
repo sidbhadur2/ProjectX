@@ -13,3 +13,9 @@ I got nobody to blame but me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.677520116691
+Sad = 0.322479883309
+
+Workout = 0.707068637414
+Chill = 0.292931362586

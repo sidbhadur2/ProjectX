@@ -23,3 +23,9 @@ But now you're here and I don't feel a thing
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.704323129479
+Sad = 0.295676870521
+
+Workout = 0.733871650202
+Chill = 0.266128349798

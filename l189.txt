@@ -30,3 +30,9 @@ I'm lightning on my feet
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.807750894996
+Sad = 0.192249105004
+
+Workout = 0.162700584281
+Chill = 0.837299415719

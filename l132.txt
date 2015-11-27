@@ -21,3 +21,9 @@ And I keep on climbing up
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.748250847054
+Sad = 0.251749152946
+
+Workout = 0.777799367777
+Chill = 0.222200632223

@@ -22,3 +22,9 @@ Yeah, any way you kiss me, flips me and gets me the right kind of tipsy, girl
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.85041404827
+Sad = 0.14958595173
+
+Workout = 0.879962568992
+Chill = 0.120037431008

@@ -21,3 +21,9 @@ They tryna take the waaave from a nigga
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.151031428161
+Sad = 0.848968571839
+
+Workout = 0.878517092561
+Chill = 0.121482907439

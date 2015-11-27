@@ -17,3 +17,9 @@ But there's a crack in the reflection
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.797243514863
+Sad = 0.202756485137
+
+Workout = 0.826792035585
+Chill = 0.173207964415

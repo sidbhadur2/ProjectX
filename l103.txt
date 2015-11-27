@@ -16,3 +16,9 @@ Thinking my journey's come to an end
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.236446468997
+Sad = 0.763553531003
+
+Workout = 0.206897948275
+Chill = 0.793102051725

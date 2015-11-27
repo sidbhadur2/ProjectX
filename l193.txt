@@ -33,3 +33,9 @@ Damn, you're such a
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.722244634799
+Sad = 0.277755365201
+
+Workout = 0.248206844478
+Chill = 0.751793155522

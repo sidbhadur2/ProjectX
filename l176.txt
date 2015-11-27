@@ -26,3 +26,9 @@ Now I see fire
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.766556542849
+Sad = 0.233443457151
+
+Workout = 0.796105063572
+Chill = 0.203894936428

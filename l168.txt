@@ -34,3 +34,9 @@ She's all up in my head now
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.77322470094
+Sad = 0.22677529906
+
+Workout = 0.802773221662
+Chill = 0.197226778338

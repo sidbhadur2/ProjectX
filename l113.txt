@@ -21,3 +21,9 @@ How deep is your love?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.62379688765
+Sad = 0.37620311235
+
+Workout = 0.346654591628
+Chill = 0.653345408372

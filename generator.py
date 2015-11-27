@@ -7,7 +7,7 @@ from lxml import objectify
 import re
 
 for i in range(90):
-	print "with open" + "(" "\"" + "l" + str(11+i) +".txt" + "\"" + ",'r')" + "as f:"
+	print "with open" + "(" "\"" + "l" + str(101+i) +".txt" + "\"" + ",'r')" + "as f:"
 	print "	split=" + "f.read().strip().splitlines()"
 	print "	f.close()"
 	print ("	for num,line in enumerate(split,1):")

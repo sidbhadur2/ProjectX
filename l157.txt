@@ -16,3 +16,9 @@ Superman got nothing on me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.741543807115
+Sad = 0.258456192885
+
+Workout = 0.771092327837
+Chill = 0.228907672163

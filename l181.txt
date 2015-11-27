@@ -23,3 +23,9 @@ I see what's mine and take it
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.695253780294
+Sad = 0.304746219706
+
+Workout = 0.724802301016
+Chill = 0.275197698984

@@ -23,3 +23,9 @@ A lot of fight left in me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.821941774805
+Sad = 0.178058225195
+
+Workout = 0.851490295527
+Chill = 0.148509704473

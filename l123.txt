@@ -25,3 +25,9 @@ Loving can heal
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.661680926554
+Sad = 0.338319073446
+
+Workout = 0.691229447276
+Chill = 0.308770552724

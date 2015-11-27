@@ -25,3 +25,9 @@ Ain't that serious
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.351615311317
+Sad = 0.648384688683
+
+Workout = 0.322066790595
+Chill = 0.677933209405

@@ -28,3 +28,9 @@ I used to love you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.718382045433
+Sad = 0.281617954567
+
+Workout = 0.747930566156
+Chill = 0.252069433844

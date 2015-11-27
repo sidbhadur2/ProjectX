@@ -18,3 +18,9 @@ jumped in a ditch,
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.772215291889
+Sad = 0.227784708111
+
+Workout = 0.801763812611
+Chill = 0.198236187389

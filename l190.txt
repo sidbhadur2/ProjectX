@@ -18,3 +18,9 @@ Those three words
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.374058021674
+Sad = 0.625941978326
+
+Workout = 0.344509500951
+Chill = 0.655490499049

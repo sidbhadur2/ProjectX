@@ -11,3 +11,9 @@ Sound and color
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.774424959149
+Sad = 0.225575040851
+
+Workout = 0.196026520129
+Chill = 0.803973479871

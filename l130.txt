@@ -31,3 +31,9 @@ But I been on it, on the low
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.718640157107
+Sad = 0.281359842893
+
+Workout = 0.74818867783
+Chill = 0.25181132217

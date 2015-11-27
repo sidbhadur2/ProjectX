@@ -14,3 +14,9 @@ I never wanted to be, wanted to be your enemy
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.672700666776
+Sad = 0.327299333224
+
+Workout = 0.702249187498
+Chill = 0.297750812502

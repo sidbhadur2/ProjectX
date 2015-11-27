@@ -17,3 +17,9 @@ Somehow escapes the burning weight the art of scraping through
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.829403089446
+Sad = 0.170596910554
+
+Workout = 0.858951610168
+Chill = 0.141048389832

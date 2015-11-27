@@ -11,3 +11,9 @@ Nothing to kill or die for
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.635253848429
+Sad = 0.364746151571
+
+Workout = 0.335197630848
+Chill = 0.664802369152

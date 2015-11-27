@@ -17,3 +17,9 @@ Everybody show love now
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.84757348826
+Sad = 0.15242651174
+
+Workout = 0.877122008982
+Chill = 0.122877991018

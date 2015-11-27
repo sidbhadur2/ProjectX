@@ -19,3 +19,9 @@ She is always right there when I need her
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.696105971871
+Sad = 0.303894028129
+
+Workout = 0.725654492594
+Chill = 0.274345507406

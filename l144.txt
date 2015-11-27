@@ -18,3 +18,9 @@ So don't let it go, we can make some more, we can live forever
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.748058786951
+Sad = 0.251941213049
+
+Workout = 0.777607307673
+Chill = 0.222392692327

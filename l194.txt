@@ -16,3 +16,9 @@ Oh, baby let me love you goodbye
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.174165184447
+Sad = 0.825834815553
+
+Workout = 0.144616663724
+Chill = 0.855383336276

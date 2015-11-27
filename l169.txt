@@ -24,3 +24,9 @@ Let me be your good night
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.720210989179
+Sad = 0.279789010821
+
+Workout = 0.749759509901
+Chill = 0.250240490099

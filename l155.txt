@@ -23,3 +23,9 @@ I've gotta bid you adieu and to another I will stay true.
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.792772676221
+Sad = 0.207227323779
+
+Workout = 0.822321196943
+Chill = 0.177678803057

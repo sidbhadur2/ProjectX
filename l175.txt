@@ -19,3 +19,9 @@ Like a shooting star across the sky
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.810948378265
+Sad = 0.189051621735
+
+Workout = 0.840496898987
+Chill = 0.159503101013

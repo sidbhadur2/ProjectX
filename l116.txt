@@ -21,3 +21,9 @@ Lalalalala
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.743054166531
+Sad = 0.256945833469
+
+Workout = 0.772602687254
+Chill = 0.227397312746

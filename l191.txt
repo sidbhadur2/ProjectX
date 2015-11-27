@@ -17,3 +17,9 @@ dancin when there ain't no music
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.795409520974
+Sad = 0.204590479026
+
+Workout = 0.175041958303
+Chill = 0.824958041697

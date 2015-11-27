@@ -27,3 +27,9 @@ I want that can't sleep love
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.462876178312
+Sad = 0.537123821688
+
+Workout = 0.566672342411
+Chill = 0.433327657589

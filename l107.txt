@@ -16,3 +16,9 @@ Renegades
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.640581609366
+Sad = 0.359418390634
+
+Workout = 0.670130130089
+Chill = 0.329869869911

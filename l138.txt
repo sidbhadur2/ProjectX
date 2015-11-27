@@ -17,3 +17,9 @@ Like we're all gonna make it, yeah, yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.175527345649
+Sad = 0.824472654351
+
+Workout = 0.854021175074
+Chill = 0.145978824926

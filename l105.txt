@@ -44,3 +44,8 @@ She has her arms around your waist
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+Happy = 0.764778939945
+Sad = 0.235221060055
+
+Workout = 0.794327460668
+Chill = 0.205672539332

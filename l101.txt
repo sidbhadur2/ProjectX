@@ -18,3 +18,9 @@ In love with you, am I in love with you?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.742213351035
+Sad = 0.257786648965
+
+Workout = 0.771761871757
+Chill = 0.228238128243

@@ -25,3 +25,9 @@ To teeth and clothes and slamming door on you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.699070179573
+Sad = 0.300929820427
+
+Workout = 0.728618700295
+Chill = 0.271381299705

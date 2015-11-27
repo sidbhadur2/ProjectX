@@ -23,3 +23,9 @@ Just remember me
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.395704788785
+Sad = 0.604295211215
+
+Workout = 0.366156268062
+Chill = 0.633843731938

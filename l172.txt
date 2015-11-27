@@ -33,3 +33,9 @@ When I'm without ya
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.655227888907
+Sad = 0.344772111093
+
+Workout = 0.68477640963
+Chill = 0.31522359037

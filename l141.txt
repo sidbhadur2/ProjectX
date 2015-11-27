@@ -25,3 +25,9 @@ The meaning of forgiveness
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.226608811509
+Sad = 0.773391188491
+
+Workout = 0.802939709213
+Chill = 0.197060290787

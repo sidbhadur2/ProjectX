@@ -15,3 +15,9 @@ How did we?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.801718705776
+Sad = 0.198281294224
+
+Workout = 0.168732773502
+Chill = 0.831267226498

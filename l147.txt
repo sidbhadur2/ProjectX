@@ -19,3 +19,9 @@ Now where you at?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.806748027255
+Sad = 0.193251972745
+
+Workout = 0.836296547977
+Chill = 0.163703452023

@@ -16,3 +16,9 @@ I'm thinking out loud
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.853828596276
+Sad = 0.146171403724
+
+Workout = 0.883377116998
+Chill = 0.116622883002

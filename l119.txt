@@ -18,3 +18,9 @@ Even if we can't find heaven, I'm gonna stand by you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.272812791024
+Sad = 0.727187208976
+
+Workout = 0.756735729698
+Chill = 0.243264270302

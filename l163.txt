@@ -20,3 +20,9 @@ Just to get up next to you,
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.720366349273
+Sad = 0.279633650727
+
+Workout = 0.749914869996
+Chill = 0.250085130004

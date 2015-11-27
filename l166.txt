@@ -31,3 +31,9 @@ And every time he hurt you, I heard you
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.79286405095
+Sad = 0.20713594905
+
+Workout = 0.822412571672
+Chill = 0.177587428328

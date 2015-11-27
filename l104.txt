@@ -24,3 +24,9 @@ Jumpman, Jumpman, Jumpman
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.81768587814
+Sad = 0.18231412186
+
+Workout = 0.847234398863
+Chill = 0.152765601137

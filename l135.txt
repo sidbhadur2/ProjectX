@@ -24,3 +24,9 @@ Let's Marvin Gaye and get it on
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.715246644699
+Sad = 0.284753355301
+
+Workout = 0.255204834579
+Chill = 0.744795165421

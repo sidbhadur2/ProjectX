@@ -19,3 +19,9 @@ Boy you earned it, yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.766404543286
+Sad = 0.233595456714
+
+Workout = 0.204046935991
+Chill = 0.795953064009

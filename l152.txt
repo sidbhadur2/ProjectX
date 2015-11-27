@@ -16,3 +16,9 @@ This is your song
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.745542765634
+Sad = 0.254457234366
+
+Workout = 0.775091286357
+Chill = 0.224908713643

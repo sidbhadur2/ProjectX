@@ -24,3 +24,9 @@ Her daddy didn't trust my intentions, so he turned to his daddy's old .410
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.758521971537
+Sad = 0.241478028463
+
+Workout = 0.788070492259
+Chill = 0.211929507741

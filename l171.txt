@@ -30,3 +30,9 @@ Feeling good on my own without you, yeah
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.206525990442
+Sad = 0.793474009558
+
+Workout = 0.82302253028
+Chill = 0.17697746972

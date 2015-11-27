@@ -22,3 +22,9 @@ I told her turn her ass around
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.706290871764
+Sad = 0.293709128236
+
+Workout = 0.735839392487
+Chill = 0.264160607513

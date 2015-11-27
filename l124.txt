@@ -13,3 +13,9 @@ Walk my way, I'll share the things that you want
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.704816173919
+Sad = 0.295183826081
+
+Workout = 0.265635305359
+Chill = 0.734364694641

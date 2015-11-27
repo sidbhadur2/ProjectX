@@ -24,3 +24,9 @@ And now he's so devoid of color
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.736691479153
+Sad = 0.263308520847
+
+Workout = 0.233760000125
+Chill = 0.766239999875

@@ -16,3 +16,9 @@ Whose heart is the biggest?
 ...
 
 ******* This Lyrics is NOT for Commercial use *******
+
+Happy = 0.30496082193
+Sad = 0.69503917807
+
+Workout = 0.275412301208
+Chill = 0.724587698792
