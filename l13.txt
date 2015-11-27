@@ -1,4 +1,3 @@
-
 When the days are cold
 And the cards all fold
 And the saints we see
@@ -33,3 +32,6 @@ Sad = 0.339720247136
 
 Workout = 0.697679752864
 Chill = 0.302320247136
+
+Party = 0.301697679143
+Focus = 0.256832733749

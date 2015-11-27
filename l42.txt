@@ -1,4 +1,3 @@
-
 Baby, I'm preying on you tonight
 Hunt you down eat you alive
 Just like animals
@@ -46,3 +45,6 @@ Sad = 0.345392915475
 
 Workout = 0.692007084525
 Chill = 0.307992915475
+
+Party = 0.715655234505
+Focus = 0.165680117831

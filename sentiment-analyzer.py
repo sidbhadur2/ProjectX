@@ -28,6 +28,21 @@ def classifySentiment(words, happy_log_probs, sad_log_probs):
 
     return prob_happy, prob_sad
 
+def classifySentiment_party(words, party_log_probs, focus_log_probs):
+    # Get the log-probability of each word under each sentiment
+    party_probs = [party_log_probs[word] for word in words if word in party_log_probs]
+    focus_probs = [focus_log_probs[word] for word in words if word in focus_log_probs]
+
+    # Sum all the log-probabilities for each sentiment to get a log-probability for the whole tweet
+    tweet_party_log_prob = np.sum(party_probs)
+    tweet_focus_log_prob = np.sum(focus_probs)
+
+    # Calculate the probability of the tweet belonging to each sentiment
+    prob_party = np.reciprocal(np.exp(tweet_focus_log_prob - tweet_party_log_prob) + 1)
+    prob_focus = 1 - prob_party
+
+    return prob_party, prob_focus
+
 def classifySentiment_workout(words, workout_log_probs, chill_log_probs):
     # Get the log-probability of each word under each sentiment
     workout_probs = [workout_log_probs[word] for word in words if word in workout_log_probs]
@@ -48,6 +63,8 @@ def main():
     #25
     happy_log_probs, sad_log_probs = readSentimentList('twitter_sentiment_list.csv')
     workout_log_probs, chill_log_probs = readSentimentList('chill_sentiment_list.csv')
+    party_log_probs, focus_log_probs = readSentimentList('party_sentiment_list.csv')
+
 
     # tweet1 = ['She', 'said',' to',' me',' Go',' steady',' on ','me']
     # tweet2 = ['Wont',' you',' tell',' me',' what',' the',' Wise',' Men',' said']
@@ -1681,7 +1698,6 @@ def main():
     # tweet16 = ['']
     # tweet17 = ['(Oh', 'oh,', 'oh)', 'so', 'you', 'say', "I'm", 'complicated']
 
-
     # tweet1 = ['Oh', "don't", 'you', 'dare', 'look', 'back']
     # tweet2 = ['Just', 'keep', 'your', 'eyes', 'on', 'me.']
     # tweet3 = ['I', 'said', "you're", 'holding', 'back,']
@@ -1915,6 +1931,7 @@ def main():
     # tweet15 = ['Thinking', 'my', "journey's", 'come', 'to', 'an', 'end']
     # tweet16 = ['...']
     # tweet17 = ['']
+
     # tweet1 = ['Yeah']
     # tweet2 = ['']
     # tweet3 = ['Halloween']
@@ -2094,6 +2111,7 @@ def main():
     # tweet15 = ['Is', 'it', 'like', 'the', 'ocean?']
     # tweet16 = ['Pull', 'me', 'closer,', 'again']
     # tweet17 = ['How', 'deep', 'is', 'your', 'love?']
+
     # tweet1 = ['I', 'got', 'a', 'death', 'wish,', 'her', 'looks', 'can', 'kill,']
     # tweet2 = ["She's", 'got', 'a', 'red', 'dress,', 'lipstick', 'and', 'heels']
     # tweet3 = ['']
@@ -2165,6 +2183,7 @@ def main():
     # tweet15 = ['...']
     # tweet16 = ['']
     # tweet17 = ['*******', 'This', 'Lyrics', 'is', 'NOT', 'for', 'Commercial', 'use', '*******']
+   
     # tweet1 = ["She's", 'a', 'small-town,', 'hard-working', 'woman', 'just', 'trying', 'to', 'make', 'a', 'living']
     # tweet2 = ['Working', 'three', 'jobs,', 'feeding', 'four', 'little', 'mouths', 'in', 'a', 'run-down', 'kitchen']
     # tweet3 = ['When', 'you', 'never', 'taking', 'nothing', 'and', 'doing', 'nothing', 'but', 'giving']
@@ -3622,24 +3641,60 @@ def main():
     # tweet16 = ['Pulled', 'apart', 'at', 'the', 'seams']
     # tweet17 = ['And', "it's", 'blue']
 
-    # tweet1 = ['Do-do-do-do', 'do-do-do-do']
-    # tweet2 = ['Do-do-do-do', 'do-do-do-do']
-    # tweet3 = ['']
-    # tweet4 = ['Some', 'legends', 'are', 'told']
-    # tweet5 = ['Some', 'turn', 'to', 'dust', 'or', 'to', 'gold']
-    # tweet6 = ['But', 'you', 'will', 'remember', 'me']
-    # tweet7 = ['Remember', 'me', 'for', 'centuries']
-    # tweet8 = ['And', 'just', 'one', 'mistake']
-    # tweet9 = ['Is', 'all', 'it', 'will', 'take']
-    # tweet10 = ["We'll", 'go', 'down', 'in', 'history']
-    # tweet11 = ['Remember', 'me', 'for', 'centuries']
-    # tweet12 = ['']
-    # tweet13 = ['Hey-ya,', 'hey,', 'hey-ya']
-    # tweet14 = ['Remember', 'me', 'for', 'centuries']
-    # tweet15 = ['']
-    # tweet16 = ['Mummified', 'my', 'teenage', 'dreams']
-    # tweet17 = ['No,', "it's", 'nothing', 'wrong', 'with', 'me']
+    tweet1 = ['Do-do-do-do', 'do-do-do-do']
+    tweet2 = ['Do-do-do-do', 'do-do-do-do']
+    tweet3 = ['']
+    tweet4 = ['Some', 'legends', 'are', 'told']
+    tweet5 = ['Some', 'turn', 'to', 'dust', 'or', 'to', 'gold']
+    tweet6 = ['But', 'you', 'will', 'remember', 'me']
+    tweet7 = ['Remember', 'me', 'for', 'centuries']
+    tweet8 = ['And', 'just', 'one', 'mistake']
+    tweet9 = ['Is', 'all', 'it', 'will', 'take']
+    tweet10 = ["We'll", 'go', 'down', 'in', 'history']
+    tweet11 = ['Remember', 'me', 'for', 'centuries']
+    tweet12 = ['']
+    tweet13 = ['Hey-ya,', 'hey,', 'hey-ya']
+    tweet14 = ['Remember', 'me', 'for', 'centuries']
+    tweet15 = ['']
+    tweet16 = ['Mummified', 'my', 'teenage', 'dreams']
+    tweet17 = ['No,', "it's", 'nothing', 'wrong', 'with', 'me']
 
+    # tweet1 = ['You', 'used' 'to', 'call',  'me',  'on',  'my',  'you',  'used',  'to',  'you',  'used',  'to']
+    # tweet2 =['Yeah']
+    # tweet3 = ['You', 'used' 'to', 'call',  'me',  'on',  'my','cell' , 'phone']
+    # tweet4 = ['Late', 'night', 'when', 'you' ,'need' ,'my' ,'love']
+    # tweet5 = ['call',  'me',  'on',  'my','cell' , 'phone']
+    # tweet6 = ['Late', 'night', 'when', 'you' ,'need' ,'my' ,'love']
+    # tweet7 = ['And' 'I' ,'know' , 'when' , 'that' ,'hotline' ,'bling']
+    # tweet8 = ['That', 'can' ,'only' ,'mean', 'one', 'thing']
+    # tweet9 = ['And' 'I' ,'know' , 'when' , 'that' ,'hotline' ,'bling']
+    # tweet10 = ['That', 'can' ,'only' ,'mean', 'one', 'thing']
+    # tweet11 = ['Ever', 'since' ,'I' ,'left', 'the', 'city' ,'you']
+    # tweet12 = ['Got', 'a', 'reputation', 'for', 'yourself', 'now']
+    # tweet13 = ['Everybody' ,'knows', 'and', 'I', 'feel', 'left', 'out' ,'head']
+    # tweet14 = ['Girl', 'you' ,'got', 'me', 'down', 'you', 'got' ,'me' ,'stressed', 'out', 'man']
+    # tweet15 = ['Cause', 'ever', 'since', 'I', 'left', 'the', 'city', 'you']
+    # tweet16 = ['Started', 'wearing', 'less', 'and', 'goin', 'out', 'more','white']
+    # tweet17 = ['Glasses', 'of', 'champagne', 'out', 'on', 'the', 'dance' ,'floor']
+
+    # tweet1 = ['Look', 'at ','the' ,'stars']
+    # tweet2 =['Look', ' how' , ' they' , 'shine', ' for', 'you']
+    # tweet3 = ['And', '  everything', '  you', '  do']
+    # tweet4 = ['Yeah', ' they', '  were', '  all', ' yellow']
+    # tweet5 = ['I', ' came', ' along']
+    # tweet6 = ['I', ' wrote', ' a ', 'song', ' for', ' you']
+    # tweet7 = ['And ', 'all', ' the', ' things', ' you', ' do']
+    # tweet8 = ['And ', 'it', ' was', ' called', ' Yellow']
+    # tweet9 = ['So', ' then', ' I', ' took', ' my', ' turn']
+    # tweet10 = ['Oh', ' what', ' a', ' thing', ' to ve', ' done']
+    # tweet11 = ['And', ' it', ' was', ' all', ' yellow']
+    # tweet12 = ['Your', ' skin']
+    # tweet13 = ['Oh', ' yeah', ' your', ' skin', ' and', ' bones']
+    # tweet14 = ['Oh', ' what', ' a', ' thing', ' to ve', ' done']
+    # tweet15 = ['Oh', ' what', ' a', ' thing', ' to ve', ' done']
+    # tweet16 = ['And', ' it', ' was', ' all', ' yellow']
+    # tweet17 = ['Your', ' skin']
+    
 
     # Calculate the probabilities that the tweets are happy or sad
     tweet1_happy_prob, tweet1_sad_prob = classifySentiment(tweet1, happy_log_probs, sad_log_probs)
@@ -3678,13 +3733,37 @@ def main():
     tweet16_workout_prob, tweet16_chill_prob = classifySentiment(tweet16, workout_log_probs, chill_log_probs)
     tweet17_workout_prob, tweet17_chill_prob = classifySentiment(tweet17, workout_log_probs, chill_log_probs)
     
+    tweet1_party_prob, tweet1_chill_prob = classifySentiment(tweet1, party_log_probs, chill_log_probs)
+    tweet2_party_prob, tweet2_chill_prob = classifySentiment(tweet2, party_log_probs, chill_log_probs)
+    tweet3_party_prob, tweet3_chill_prob = classifySentiment(tweet3, party_log_probs, chill_log_probs)
+    tweet4_party_prob, tweet4_chill_prob = classifySentiment(tweet4, party_log_probs, chill_log_probs)
+    tweet5_party_prob, tweet5_chill_prob = classifySentiment(tweet5, party_log_probs, chill_log_probs)
+    tweet6_party_prob, tweet6_chill_prob = classifySentiment(tweet6, party_log_probs, chill_log_probs)
+    tweet7_party_prob, tweet7_chill_prob = classifySentiment(tweet7, party_log_probs, chill_log_probs)
+    tweet8_party_prob, tweet8_chill_prob = classifySentiment(tweet8, party_log_probs, chill_log_probs)
+    tweet9_party_prob, tweet9_chill_prob = classifySentiment(tweet9, party_log_probs, chill_log_probs)
+    tweet10_party_prob, tweet10_chill_prob = classifySentiment(tweet10, party_log_probs, chill_log_probs)
+    tweet11_party_prob, tweet11_chill_prob = classifySentiment(tweet11, party_log_probs, chill_log_probs)
+    tweet12_party_prob, tweet12_chill_prob = classifySentiment(tweet12, party_log_probs, chill_log_probs)
+    tweet13_party_prob, tweet13_chill_prob = classifySentiment(tweet13, party_log_probs, chill_log_probs)
+    tweet14_party_prob, tweet14_chill_prob = classifySentiment(tweet14, party_log_probs, chill_log_probs)
+    tweet15_party_prob, tweet15_chill_prob = classifySentiment(tweet15, party_log_probs, chill_log_probs)
+    tweet16_party_prob, tweet16_chill_prob = classifySentiment(tweet16, party_log_probs, chill_log_probs)
+    tweet17_party_prob, tweet17_chill_prob = classifySentiment(tweet17, workout_log_probs, chill_log_probs)
+    
+    party = (tweet1_party_prob +tweet2_party_prob + tweet3_party_prob + tweet4_party_prob + tweet5_party_prob + tweet6_party_prob + tweet7_party_prob     + tweet8_party_prob + tweet9_party_prob + tweet10_party_prob + tweet11_party_prob + tweet12_party_prob + tweet13_party_prob
+        + tweet14_party_prob + tweet15_party_prob + tweet16_party_prob + tweet17_party_prob) /17 
+
     workout = (tweet1_workout_prob +tweet2_workout_prob + tweet3_workout_prob + tweet4_workout_prob + tweet5_workout_prob + tweet6_workout_prob + tweet7_workout_prob     + tweet8_workout_prob + tweet9_workout_prob + tweet10_workout_prob + tweet11_workout_prob + tweet12_workout_prob + tweet13_workout_prob
         + tweet14_workout_prob + tweet15_workout_prob + tweet16_workout_prob + tweet17_workout_prob) /17 
 
-    workout = workout + 0.0295485207225
+    # workout = workout + 0.0295485207225
 
+    # focus = party -  0.034280058394
     happy = (tweet1_happy_prob +tweet2_happy_prob + tweet3_happy_prob + tweet4_happy_prob + tweet5_happy_prob + tweet6_happy_prob + tweet7_happy_prob     + tweet8_happy_prob + tweet9_happy_prob + tweet10_happy_prob + tweet11_happy_prob + tweet12_happy_prob + tweet13_happy_prob
         + tweet14_happy_prob + tweet15_happy_prob + tweet16_happy_prob + tweet17_happy_prob) /17 
+
+    # party = party - 0.23895185002
    
    # sad = (tweet1_sad_prob + tweet2_sad_prob + tweet3_sad_prob + tweet4_sad_prob + tweet5_sad_prob + tweet6_sad_prob + tweet7_sad_prob 
    # + tweet8_sad_prob + tweet9_sad_prob + tweet10_sad_prob + tweet11_sad_prob + tweet12_sad_prob + tweet13_sad_prob + tweet14_sad_prob + tweet15_sad_prob
@@ -3696,6 +3775,8 @@ def main():
     print ("Workout = " + str(workout) )
     print ("Chill = " + str(1- workout) )
 
+    print ("Party = " + str(party) )
+    print ("Focus = " + str(focus - 0.4546469083) )    
 
 if __name__ == '__main__':
     main()
