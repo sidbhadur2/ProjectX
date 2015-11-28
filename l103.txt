@@ -25,3 +25,6 @@ Chill = 0.793102051725
 
 Party = 0.424601680983
 Focus = 0.274626564309
+
+Song_name = Purpose
+Artist	= Justin Bieber

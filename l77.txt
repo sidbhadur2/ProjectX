@@ -22,3 +22,6 @@ Chill = 0.272708542704
 
 Party = 0.458791086553
 Focus = 0.208815969879
+
+Song_name = Cough Syrup
+Artist	= Young The Giant

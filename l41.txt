@@ -29,3 +29,6 @@ Chill = 0.917353196072
 
 Party = 0.247114557057
 Focus = 0.597139440383
+
+Song_name = 2020
+Artist	= Sol

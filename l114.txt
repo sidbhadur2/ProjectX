@@ -25,3 +25,6 @@ Chill = 0.192421435187
 
 Party = 0.33907819407
 Focus = 0.289103077396
+
+Song_name = Beautiful Drug
+Artist	= Zac Brown Band

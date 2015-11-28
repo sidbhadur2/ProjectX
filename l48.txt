@@ -23,3 +23,6 @@ Chill = 0.200676061839
 
 Party = 0.492564221857
 Focus = 0.242589105183
+
+Song_name = Hells Bells
+Artist	= AC DC

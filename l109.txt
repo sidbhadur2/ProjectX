@@ -32,3 +32,6 @@ Chill = 0.633843731938
 
 Party = 0.500445628726
 Focus = 0.250470512052
+
+Song_name = Lay It All on Me
+Artist	= Rudimental

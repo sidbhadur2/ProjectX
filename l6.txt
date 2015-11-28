@@ -55,3 +55,6 @@ Chill = 0.369753686322
 
 Party = 0.448377474988
 Focus = 0.382987416594
+
+Song_name = Mockingbird
+Artist	= Eminem

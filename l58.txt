@@ -29,3 +29,6 @@ Chill = 0.212427822009
 
 Party = 0.111220327971
 Focus = 0.261245211297
+
+Song_name = Focus
+Artist	= Ariana Grande

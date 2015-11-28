@@ -42,3 +42,6 @@ Chill = 0.31522359037
 
 Party = 0.416276038887
 Focus = 0.566300922213
+
+Song_name = Sugar
+Artist	= Maroon 5

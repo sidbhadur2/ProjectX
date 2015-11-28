@@ -28,3 +28,6 @@ Chill = 0.798114758107
 
 Party = 0.329614387365
 Focus = 0.679639270691
+
+Song_name = Just The Way You Are
+Artist	= Bruno Mars

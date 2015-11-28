@@ -34,3 +34,6 @@ Chill = 0.308770552724
 
 Party = 0.422729076534
 Focus = 0.87275395986
+
+Song_name = Photograph
+Artist	= Ed Sheeran

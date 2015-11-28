@@ -23,3 +23,6 @@ Chill = 0.297750812502
 
 Party = 0.433748816756
 Focus = 0.183773700082
+
+Song_name = Been You
+Artist	= Justin Bieber

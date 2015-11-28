@@ -30,3 +30,6 @@ Chill = 0.653345408372
 
 Party = 0.38484503763
 Focus = 0.134869920956
+
+Song_name = How Deep is Your Love
+Artist	= Calvin Harris

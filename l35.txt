@@ -48,3 +48,6 @@ Chill = 0.160297819413
 
 Party = 0.576157530554
 Focus = 0.54187747216
+
+Song_name = Medicated
+Artist	= Wiz Khalifa

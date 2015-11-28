@@ -30,3 +30,6 @@ Chill = 0.121482907439
 
 Party = 0.610016721819
 Focus = 0.360041605145
+
+Song_name = Energy
+Artist	= Drake

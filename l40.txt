@@ -35,3 +35,6 @@ Chill = 0.147424514639
 
 Party = 0.63101701125
 Focus = 0.381041894576
+
+Song_name = Halftime
+Artist	= Nas

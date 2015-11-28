@@ -39,3 +39,6 @@ Chill = 0.218491122522
 Party = 0.505157027458
 Focus = 0.255181910784
 
+Song_name = Dirty Diana
+Artist	= Michael Jackson
+

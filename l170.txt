@@ -30,3 +30,6 @@ Chill = 0.144235876832
 
 Party = 0.537263752425
 Focus = 0.537288635751
+
+Song_name = Remix Sorry
+Artist	= Justin Bieber

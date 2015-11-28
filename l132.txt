@@ -30,3 +30,6 @@ Chill = 0.222200632223
 
 Party = 0.509298997034
 Focus = 0.25932388036
+
+Song_name = Levels
+Artist	= Nick Jonas

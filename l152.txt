@@ -25,3 +25,6 @@ Chill = 0.224908713643
 
 Party = 0.306590915614
 Focus = 0.45661579894
+
+Song_name = Your Song
+Artist	= Elton John

@@ -28,3 +28,6 @@ Chill = 0.274345507406
 
 Party = 0.563523446209
 Focus = 0.313548329535
+
+Song_name = Cheerleader
+Artist	= Omi

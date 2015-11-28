@@ -25,3 +25,6 @@ Chill = 0.116622883002
 
 Party = 0.614876746256
 Focus = 0.364901629582
+
+Song_name = Thinking Out Loud
+Artist	= Ed Sheeran

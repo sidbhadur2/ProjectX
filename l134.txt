@@ -34,3 +34,6 @@ Chill = 0.677933209405
 
 Party = 0.409432838663
 Focus = 0.159457721989
+
+Song_name = Company
+Artist	= Justin Bieber

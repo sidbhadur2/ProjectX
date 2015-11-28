@@ -19,3 +19,6 @@ Chill = 0.662967439854
 
 Party = 0.619202652691
 Focus = 0.424922594297
+
+Song_name = Layla
+Artist	= Eric Clapton

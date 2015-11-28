@@ -30,3 +30,6 @@ Chill = 0.222888321996
 
 Party = 0.508611307262
 Focus = 0.258636190588
+
+Song_name = Confident
+Artist	= Demi Lovato

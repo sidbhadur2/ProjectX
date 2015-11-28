@@ -25,3 +25,6 @@ Chill = 0.204349171992
 
 Party = 0.227150457265
 Focus = 0.677175340591
+
+Song_name = Riser
+Artist	= Dierks Bentley

@@ -40,3 +40,6 @@ Chill = 0.25181132217
 
 Party = 0.479688307087
 Focus = 0.729713190413
+
+Song_name = Say It
+Artist	= Tory Lanez

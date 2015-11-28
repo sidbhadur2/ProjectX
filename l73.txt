@@ -31,3 +31,6 @@ Chill = 0.184035263882
 
 Party = 0.547464365376
 Focus = 0.297489248702
+
+Song_name = Drank in my Cup
+Artist	= Kirko Bangz

@@ -43,3 +43,6 @@ Chill = 0.197226778338
 
 Party = 0.53427285092
 Focus = 0.284297734246
+
+Song_name = Yeah
+Artist	= Usher

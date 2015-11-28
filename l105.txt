@@ -52,3 +52,6 @@ Chill = 0.205672539332
 
 Party = 0.425827089925
 Focus = 0.575851973251
+
+Song_name = Downtown
+Artist	= Macklemore

@@ -31,3 +31,6 @@ Chill = 0.270006195486
 
 Party = 0.699357474988
 Focus = 0.392877416594
+
+Song_name = Trap Queen
+Artist	= Fetty Wap

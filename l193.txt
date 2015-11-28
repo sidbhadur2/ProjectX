@@ -42,3 +42,6 @@ Chill = 0.751793155522
 
 Party = 0.483292784779
 Focus = 0.233317668105
+
+Song_name = You
+Artist	= Hailee Steinfeld

@@ -42,3 +42,6 @@ Chill = 0.836579356178
 
 Party = 0.710252389484
 Focus = 0.260227506158
+
+Song_name = Money Trees
+Artist	= Kendrick Lamar

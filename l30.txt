@@ -32,3 +32,6 @@ Chill = 0.128642384869
 
 Party = 0.14711239423
 Focus = 0.31230498663
+
+Song_name = Rag Doll
+Artist	= Aerosmith

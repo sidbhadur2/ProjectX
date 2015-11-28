@@ -29,3 +29,6 @@ Chill = 0.163348140875
 
 Party = 0.468151488383
 Focus = 0.318176371709
+
+Song_name = Stressed Out
+Artist	= Twenty One Pilots

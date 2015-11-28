@@ -26,3 +26,6 @@ Chill = 0.226507989428
 
 Party = 0.566672342411
 Focus = 0.433327657589
+
+Song_name = Jordan Belfort
+Artist	= Wes Walker

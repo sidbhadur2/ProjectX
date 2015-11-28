@@ -26,3 +26,6 @@ Chill = 0.42616127322
 
 Party = 0.390957474988
 Focus = 0.231677416594
+
+Song_name = Numb
+Artist	= Linkin Park

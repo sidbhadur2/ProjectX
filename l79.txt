@@ -31,3 +31,6 @@ Chill = 0.8354095153
 
 Party = 0.466909144557
 Focus = 0.316934027883
+
+Song_name = Pocket
+Artist	= Andy Grammer

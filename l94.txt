@@ -28,3 +28,6 @@ Chill = 0.218904388505
 
 Party = 0.412595240752
 Focus = 0.262620124078
+
+Song_name = Stay a little Longer
+Artist	= Brothers Osborne

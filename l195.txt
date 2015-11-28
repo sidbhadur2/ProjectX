@@ -23,3 +23,7 @@ Chill = 0.264747735851
 
 Party = 0.586882965533
 Focus = 0.336907848859
+
+Song_name = New Americana
+Artist	= Halsey
+

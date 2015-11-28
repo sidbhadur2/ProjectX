@@ -39,3 +39,6 @@ Chill = 0.837299415719
 
 Party = 0.568799044976
 Focus = 0.318823928302
+
+Song_name = Shake It Off
+Artist	= Taylor Swift

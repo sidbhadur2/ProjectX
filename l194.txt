@@ -25,3 +25,6 @@ Chill = 0.855383336276
 
 Party = 0.233760000125
 Focus = 0.766239999875
+
+Song_name = Love
+Artist	= One Direction

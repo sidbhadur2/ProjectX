@@ -40,3 +40,6 @@ Chill = 0.231054000531
 
 Party = 0.401629759346
 Focus = 0.651654642672
+
+Song_name = Locked Away
+Artist	= R City

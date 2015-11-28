@@ -26,3 +26,6 @@ Chill = 0.141048389832
 
 Party = 0.390451239426
 Focus = 0.340476122752
+
+Song_name = Someone New
+Artist	= Hozier

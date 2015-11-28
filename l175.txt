@@ -28,3 +28,6 @@ Chill = 0.159503101013
 
 Party = 0.571996528245
 Focus = 0.322021411571
+
+Song_name = Gonna Know
+Artist	= Jason Aldean

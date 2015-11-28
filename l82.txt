@@ -27,3 +27,6 @@ Chill = 0.17523707417
 
 Party = 0.36262555087
 Focus = 0.606287438413
+
+Song_name = Wonderwall
+Artist	= Oasis

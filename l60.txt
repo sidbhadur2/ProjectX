@@ -38,3 +38,6 @@ Chill = 0.14749061942
 
 Party = 0.576157530554
 Focus = 0.32618241388
+
+Song_name = On My Mind
+Artist	= Ellie Goulding

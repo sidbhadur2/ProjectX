@@ -43,3 +43,6 @@ Chill = 0.161345726219
 
 Party = 0.570153903039
 Focus = 0.320178786365
+
+Song_name = Afroman
+Artist	= Palmdale

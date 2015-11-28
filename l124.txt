@@ -22,3 +22,6 @@ Chill = 0.734364694641
 
 Party = 0.465864323899
 Focus = 0.515889207225
+
+Song_name = Magnets
+Artist	= Disclosure

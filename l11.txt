@@ -36,3 +36,6 @@ Chill = 0.0872052578434
 
 Party = 0.890435342342
 Focus = 0.215683234234
+
+Song_name = Lose Yourself to Dance
+Artist	= Daft Punk

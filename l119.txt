@@ -27,3 +27,6 @@ Chill = 0.243264270302
 
 Party = 0.488235358956
 Focus = 0.238260242282
+
+Song_name = Stand By You
+Artist	= Rachel Platten

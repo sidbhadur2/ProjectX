@@ -34,3 +34,6 @@ Chill = 0.192850314004
 
 Party = 0.338649315253
 Focus = 0.288674198579
+
+Song_name = Random
+Artist	= G Eazy

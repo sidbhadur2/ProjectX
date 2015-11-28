@@ -35,3 +35,7 @@ Chill = 0.278025352831
 
 Party = 0.445622797149
 Focus = 0.211342738755
+
+Song_name = Fuel
+Artist	= Metallica
+

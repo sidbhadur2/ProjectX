@@ -24,3 +24,6 @@ Chill = 0.213846780436
 
 Party = 0.317652848821
 Focus = 0.667677732147
+
+Song_name = Too Close
+Artist	= Alex Clare

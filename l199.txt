@@ -33,3 +33,6 @@ Chill = 0.766239999875
 
 Party = 0.297739629133
 Focus = 0.747764512459
+
+Song_name = Colors
+Artist	= Halsey

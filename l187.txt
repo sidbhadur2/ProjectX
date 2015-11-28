@@ -24,3 +24,6 @@ Chill = 0.743181334372
 
 Party = 0.474680963629
 Focus = 0.224705846955
+
+Song_name = Youth
+Artist	= Troye Sivan

@@ -32,3 +32,6 @@ Chill = 0.275197698984
 
 Party = 0.256301930274
 Focus = 0.8063268136
+
+Song_name = Emperor
+Artist	= Panic

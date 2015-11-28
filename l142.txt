@@ -25,3 +25,6 @@ Chill = 0.724587698792
 
 Party = 0.45608732805
 Focus = 0.706112211376
+
+Song_name = Children
+Artist	= Justin Bieber

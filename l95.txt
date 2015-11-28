@@ -27,3 +27,6 @@ Chill = 0.172309135785
 
 Party = 0.559190493473
 Focus = 0.309215376799
+
+Song_name = Good For You
+Artist	= Selena Gomez

@@ -20,3 +20,6 @@ Chill = 0.664802369152
 
 Party = 0.231285215253
 Focus = 0.783423523019
+
+Song_name = Imagine
+Artist	= John Lennon

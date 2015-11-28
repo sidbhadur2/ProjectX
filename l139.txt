@@ -23,3 +23,6 @@ Chill = 0.236431648216
 
 Party = 0.495067981041
 Focus = 0.645092864367
+
+Song_name = Something Better
+Artist	= Audien

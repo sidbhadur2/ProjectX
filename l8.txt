@@ -36,3 +36,6 @@ Chill = 0.354657782308
 
 Party = 0.727957474988
 Focus = 0.493677416594
+
+Song_name = Watch me Whip
+Artist	= Silento

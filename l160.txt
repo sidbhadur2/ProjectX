@@ -27,3 +27,6 @@ Chill = 0.196771087711
 
 Party = 0.334728541546
 Focus = 0.684753424872
+
+Song_name = Like
+Artist	= Adele

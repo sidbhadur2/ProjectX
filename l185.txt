@@ -24,3 +24,6 @@ Chill = 0.15245536439
 
 Party = 0.379044264859
 Focus = 0.529069148185
+
+Song_name = 2 Heads
+Artist	= Coleman Hell

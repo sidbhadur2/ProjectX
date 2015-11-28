@@ -29,3 +29,6 @@ Chill = 0.0904982832054
 
 Party = 0.341001346052
 Focus = 0.491026229378
+
+Song_name = Twenty 
+Artist	= Sol

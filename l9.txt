@@ -35,3 +35,6 @@ Chill = 0.715529725201
 
 Party = 0.427957945520
 Focus = 0.593677416594
+
+Song_name = Stayin Alive
+Artist	= Bee Gees

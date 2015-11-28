@@ -34,3 +34,6 @@ Chill = 0.271381299705
 
 Party = 0.460118329553
 Focus = 0.210143212879
+
+Song_name = Let It Go
+Artist	= James Bay

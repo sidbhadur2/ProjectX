@@ -26,3 +26,6 @@ Chill = 0.741090417516
 
 Party = 0.155234234232
 Focus = 0.844102342328
+
+Song_name = Boulevard of Broken Dreams
+Artist	= Green Day

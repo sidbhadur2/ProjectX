@@ -36,3 +36,6 @@ Chill = 0.214790801071
 
 Party = 0.516708828186
 Focus = 0.666733711512
+
+Song_name = The Fix
+Artist	= Nelly

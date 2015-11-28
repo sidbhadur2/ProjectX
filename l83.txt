@@ -28,3 +28,6 @@ Chill = 0.752415092524
 
 Party = 0.483914721782
 Focus = 0.233939605108
+
+Song_name = Rocket Man
+Artist	= Elton John

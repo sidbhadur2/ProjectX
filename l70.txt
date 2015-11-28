@@ -36,3 +36,6 @@ Chill = 0.1843850722
 
 Party = 0.147114557057
 Focus = 0.797139440383
+
+Song_name = Walk
+Artist	= Kwabs

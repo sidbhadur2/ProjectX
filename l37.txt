@@ -28,3 +28,6 @@ Chill = 0.201557937
 
 Party = 0.59013910681
 Focus = 0.17234320194
+
+Song_name = Love Me Again
+Artist	= John Newman

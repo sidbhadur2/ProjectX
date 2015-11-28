@@ -27,3 +27,6 @@ Chill = 0.690744618657
 
 Party = 0.337032560146
 Focus = 0.662967439854
+
+Song_name = Blame
+Artist	= Calvin Harris

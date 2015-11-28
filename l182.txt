@@ -27,3 +27,6 @@ Chill = 0.179809146263
 
 Party = 0.351690482994
 Focus = 0.50171536632
+
+Song_name = Buy Me a Boat
+Artist	= Chris Janson

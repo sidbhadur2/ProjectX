@@ -31,3 +31,6 @@ Chill = 0.781919877324
 
 Party = 0.113419506582
 Focus = 0.763444389908
+
+Song_name = Here I go Again
+Artist	= Whitesnake

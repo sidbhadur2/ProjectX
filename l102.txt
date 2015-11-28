@@ -28,3 +28,6 @@ Chill = 0.770149629984
 
 Party = 0.501649259241
 Focus = 0.251674142567
+
+Song_name = Writings on the Wall
+Artist	= Sam Smith

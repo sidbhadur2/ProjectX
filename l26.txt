@@ -27,3 +27,6 @@ Chill = 0.778572120527
 
 Party = 0.246131877146
 Focus = 0.753868122854
+
+Song_name = Winds of Change
+Artist	= Scorpions

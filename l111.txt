@@ -32,3 +32,6 @@ Chill = 0.148509704473
 
 Party = 0.382989924785
 Focus = 0.333014808111
+
+Song_name = Fight Song
+Artist	= Rachel Platten

@@ -27,3 +27,6 @@ Chill = 0.205053138386
 
 Party = 0.526446490872
 Focus = 0.276471374198
+
+Song_name = Let Me See Ya Girl
+Artist	= Cole Swindell

@@ -24,3 +24,6 @@ Chill = 0.831267226498
 
 Party = 0.362766855756
 Focus = 0.512791739082
+
+Song_name = Roses
+Artist	= The Chainsmokers

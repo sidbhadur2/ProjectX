@@ -34,3 +34,6 @@ Chill = 0.783521108563
 
 Party = 0.415020737821
 Focus = 0.665045621147
+
+Song_name = Wolf
+Artist	= Dire

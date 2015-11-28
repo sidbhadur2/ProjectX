@@ -30,3 +30,6 @@ Chill = 0.697170668908
 
 Party = 0.428670298166
 Focus = 0.178695181492
+
+Song_name = Omin
+Artist	= Disclosure

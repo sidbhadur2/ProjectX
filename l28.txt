@@ -33,3 +33,6 @@ Chill = 0.259615975833
 
 Party = 0.547114557057
 Focus = 0.312834498663
+
+Song_name = Cool For the Summer
+Artist	= Demi Lovato

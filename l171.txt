@@ -39,3 +39,6 @@ Chill = 0.17697746972
 
 Party = 0.554522159538
 Focus = 0.304547042864
+
+Song_name = Love Myself
+Artist	= Hailee Steinfeld

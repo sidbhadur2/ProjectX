@@ -20,3 +20,6 @@ Chill = 0.787863206366
 
 Party = 0.269387718949
 Focus = 0.519362835623
+
+Song_name = S.O.B
+Artist	= Nathaniel Rateliff

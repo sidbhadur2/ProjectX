@@ -26,3 +26,6 @@ Chill = 0.832023816951
 
 Party = 0.563523446209
 Focus = 0.313548329535
+
+Song_name = Picture
+Artist	= Sheryl Crow

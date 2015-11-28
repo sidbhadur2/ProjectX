@@ -41,3 +41,6 @@ Chill = 0.219181143142
 
 Party = 0.512318486115
 Focus = 0.262343369441
+
+Song_name = Blank Space
+Artist	= Taylor Swift

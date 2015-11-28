@@ -28,3 +28,6 @@ Chill = 0.795953064009
 
 Party = 0.527452693266
 Focus = 0.277477576592
+
+Song_name = Earned It
+Artist	= The Weeknd

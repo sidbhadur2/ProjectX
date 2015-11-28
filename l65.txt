@@ -37,3 +37,6 @@ Chill = 0.187957898413
 
 Party = 0.543541730845
 Focus = 0.293566614171
+
+Song_name = Young Jesus
+Artist	= Logic

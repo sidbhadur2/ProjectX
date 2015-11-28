@@ -23,3 +23,6 @@ Chill = 0.785205320737
 
 Party = 0.516704949994
 Focus = 0.26672983332
+
+Song_name = Hello
+Artist	= Lionel Richie

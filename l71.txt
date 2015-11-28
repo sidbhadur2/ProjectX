@@ -47,3 +47,6 @@ Chill = 0.76722375729
 
 Party = 0.498723386547
 Focus = 0.248748269873
+
+Song_name = Alright
+Artist	= Kendrick Lamar

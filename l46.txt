@@ -29,3 +29,6 @@ Chill = 0.175999678677
 
 Party = 0.547648471303
 Focus = 0.297673354629
+
+Song_name = Straight To The Bank
+Artist	= 50 Cent

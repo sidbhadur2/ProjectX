@@ -26,3 +26,6 @@ Chill = 0.84053538361
 
 Party = 0.56418353359
 Focus = 0.314208416916
+
+Song_name = Trophies
+Artist	= Drake

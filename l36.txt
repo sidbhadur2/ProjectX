@@ -50,3 +50,6 @@ Chill = 0.187847977891
 
 Party = 0.526575306614
 Focus = 0.27660018994
+
+Song_name = Workout
+Artist	= J Cole

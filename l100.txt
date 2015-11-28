@@ -31,3 +31,6 @@ Chill = 0.22510374227
 
 Party = 0.306395886987
 Focus = 0.556420770313
+
+Song_name = Adventure of a Lifetime
+Artist	= Coldplay

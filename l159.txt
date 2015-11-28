@@ -22,3 +22,6 @@ Chill = 0.292931362586
 
 Party = 0.438568266671
 Focus = 0.188593149997
+
+Song_name = Nobody To Blame
+Artist	= Chris Stapleton

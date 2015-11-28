@@ -33,3 +33,6 @@ Chill = 0.250240490099
 
 Party = 0.481259139159
 Focus = 0.531284022485
+
+Song_name = Temporary Fix
+Artist	= One Direction

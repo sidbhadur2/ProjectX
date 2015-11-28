@@ -35,3 +35,6 @@ Chill = 0.203894936428
 
 Party = 0.227604692829
 Focus = 0.677629576155
+
+Song_name = I See Fire
+Artist	= Ed Sheeran

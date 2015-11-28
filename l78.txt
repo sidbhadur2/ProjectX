@@ -54,3 +54,6 @@ Chill = 0.204882031354
 
 Party = 0.526617597903
 Focus = 0.276642481229
+
+Song_name = Stronger
+Artist	= Kanye West

@@ -26,3 +26,6 @@ Chill = 0.824958041697
 
 Party = 0.356457670954
 Focus = 0.50648255428
+
+Song_name = Nothing
+Artist	= Dan

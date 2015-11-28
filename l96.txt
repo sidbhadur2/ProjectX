@@ -29,3 +29,6 @@ Chill = 0.186970760497
 
 Party = 0.444528868761
 Focus = 0.394553752087
+
+Song_name = Right Hand
+Artist	= Drake

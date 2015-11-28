@@ -24,3 +24,6 @@ Chill = 0.146336639217
 
 Party = 0.385162990041
 Focus = 0.735187873367
+
+Song_name = Half of My Heart
+Artist	= John Mayer

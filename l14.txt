@@ -32,3 +32,6 @@ Chill = 0.222273261106
 
 Party = 0.327957474988
 Focus = 0.293677416594
+
+Song_name = Talking Body
+Artist	= Tove Lo

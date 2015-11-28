@@ -38,3 +38,6 @@ Chill = 0.155342098703
 
 Party = 0.576157530554
 Focus = 0.32618241388
+
+Song_name = Mind
+Artist	= Eli

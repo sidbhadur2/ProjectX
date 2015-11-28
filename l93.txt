@@ -37,3 +37,6 @@ Chill = 0.207140970837
 
 Party = 0.324358658421
 Focus = 0.474383541747
+
+Song_name = Alive
+Artist	= Sia

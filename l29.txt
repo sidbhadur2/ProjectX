@@ -26,3 +26,6 @@ Chill = 0.778576349739
 
 Party = 0.249124239057
 Focus = 0.612134911063
+
+Song_name = Yellow Submarine
+Artist	= Beatles

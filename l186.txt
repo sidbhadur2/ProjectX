@@ -29,3 +29,6 @@ Chill = 0.86407740774
 
 Party = 0.395577036998
 Focus = 0.545601920324
+
+Song_name = Halo
+Artist	= Jordan Smith

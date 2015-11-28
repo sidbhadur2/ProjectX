@@ -20,3 +20,6 @@ Chill = 0.860532776347
 
 Party = 0.392032405605
 Focus = 0.342057288931
+
+Song_name = I Got the Boy
+Artist	= Jana Kramer

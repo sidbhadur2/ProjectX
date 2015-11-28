@@ -37,3 +37,6 @@ Chill = 0.252069433844
 
 Party = 0.479430195413
 Focus = 0.229455078739
+
+Song_name = Used To Love You
+Artist	= Gwen Stefani

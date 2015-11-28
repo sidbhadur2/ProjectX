@@ -28,3 +28,6 @@ Chill = 0.17896889883
 
 Party = 0.552530730428
 Focus = 0.302555613754
+
+Song_name = Hit the Quan
+Artist	= ILoveMemphis

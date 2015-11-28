@@ -33,3 +33,6 @@ Chill = 0.744795165421
 
 Party = 0.476294794679
 Focus = 0.226319678005
+
+Song_name = Marvin Gaye
+Artist	= Charlie Puth
